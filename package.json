@@ -1,0 +1,29 @@
+{
+  "name": "app-hub",
+  "version": "0.0.1",
+  "description": "awesome vechain apps",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/vechain/app-hub.git"
+  },
+  "keywords": [
+    "vechain",
+    "app",
+    "hub"
+  ],
+  "author": "tony.li",
+  "license": "LGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/vechain/app-hub/issues"
+  },
+  "homepage": "https://github.com/vechain/app-hub#readme",
+  "devDependencies": {
+    "@types/node": "^11.10.4",
+    "ts-node": "^8.0.2",
+    "typescript": "^3.3.3333"
+  }
+}
