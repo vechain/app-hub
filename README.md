@@ -7,7 +7,7 @@ Repository for submitting Awesome VeChain Apps.
 ## Process
 
 1. Fork this repo.
-2. Create a folder in repo root directory.
+2. Create a folder in `apps` directory.
 3. Name the folder with the `BundleID` of your App.
 4. Add `logo.png` as app icon in `png` format.
 5. Create `manifest.json` for your app.

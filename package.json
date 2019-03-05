@@ -4,7 +4,8 @@
   "description": "awesome vechain apps",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "validate": "ts-node scripts/validate.ts",
+    "test": "npm run validate"
   },
   "repository": {
     "type": "git",
