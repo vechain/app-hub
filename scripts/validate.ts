@@ -2,7 +2,7 @@ import * as fs from 'fs'
 import { promisify } from 'util'
 import * as path from 'path'
     
-const bundleName = /^([a-z0-9\-]+\.){2}[a-z0-9\-]+$/
+const bundleName = /^(([a-z0-9\-]+\.)+)[a-z0-9\-]+$/
 const url = /^(http(s?):\/\/)([a-zA-Z0-9.-]+)(:[0-9]{1,4})?/
 let appCount = 0;
 
@@ -25,10 +25,12 @@ const checkAPP = async (dir: fs.Dirent) => {
     if (!bundleName.test(dir.name)) {
         throw new Error(`invalid app bundle id: ${dir.name}`)
     }
-    let files = await promisify(fs.readdir)(path.join(__dirname, '../apps', dir.name))
-    ensure(files.includes('manifest.json'), 'manifest.json is required')
-    ensure(files.includes('logo.png'), 'logo.png is required')
-    ensure(files.length == 2, 'only logo.png and manifest.json allowed')
+    let files = await promisify(fs.readdir)(path.join(__dirname, '../apps', dir.name), { withFileTypes: true })
+    files.forEach(file => {
+        ensure(file.name === 'manifest.json' || file.name === 'logo.png', 'only logo.png and manifest.json allowed')
+        ensure(file.isFile(), 'app directory must contain only file')
+    })
+    ensure(files.length == 2, 'logo.png and manifest.json are both required')
 
     const manifest = require(path.join(__dirname, '../apps', dir.name, 'manifest.json'))
     ensure(manifest.name && typeof manifest.name === 'string' && manifest.name.length, 'name should be a string')

@@ -29,7 +29,7 @@ Repository for submitting Awesome VeChain Apps.
 
 |Keyword|Explanation|
 |-|-|
-| *BundleID* | identifier of your app, two dot separated bundle name, only number letters and '-' allowed|
+| *BundleID* | identifier of your app, dot separated bundle name, only number letters and '-' allowed|
 | *name* | app name |
 | *href* | link to app |
 | *desc* | app description |
