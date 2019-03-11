@@ -26,11 +26,16 @@ const checkAPP = async (dir: fs.Dirent) => {
         throw new Error(`invalid app bundle id: ${dir.name}`)
     }
     let files = await promisify(fs.readdir)(path.join(__dirname, '../apps', dir.name), { withFileTypes: true })
-    files.forEach(file => {
-        ensure(file.name === 'manifest.json' || file.name === 'logo.png', 'only logo.png and manifest.json allowed')
+    for (let file of files) {
         ensure(file.isFile(), 'app directory must contain only file')
-    })
-    ensure(files.length == 2, 'logo.png and manifest.json are both required')
+        if (file.name === 'manifest.json' || file.name === 'logo.png')
+            continue
+        if (file.name == '.DS_Store' && process.env.CI !== 'true')
+            continue
+        console.log(file.name)
+        throw new Error('only logo.png and manifest.json allowed')
+    }
+    ensure(files.length >= 2, 'logo.png and manifest.json are both required')
 
     const manifest = require(path.join(__dirname, '../apps', dir.name, 'manifest.json'))
     ensure(manifest.name && typeof manifest.name === 'string' && manifest.name.length, 'name should be a string')
@@ -50,9 +55,11 @@ const checkAPP = async (dir: fs.Dirent) => {
             await checkAPP(dir).catch(e=>{throw new Error(`check ${dir.name} -> ${e.message}`)})
             appCount++
         } else {
-            if (dir.name != '.gitkeep') {
-                throw new Error('invalid file in apps dir: '+ dir.name)
-            }
+            if (dir.name === '.gitkeep')
+                continue
+            if (dir.name == '.DS_Store' && process.env.CI !== 'true')
+                continue
+            throw new Error('invalid file in apps dir: ' + dir.name)
         }
     }
 })().catch(e => {
