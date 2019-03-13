@@ -59,15 +59,12 @@ const cleanFileOrDir = async (p: string) => {
     
 const cleanOutput = async () => {
     console.log(colors.green('Clearing output......'))
-    let f = path.join(__dirname, '../dist/index.json')
+    let f = path.join(__dirname, '../dist')
     if (await exists(f)) {
         await cleanFileOrDir(f)
     }
-    f = path.join(__dirname, '../dist/imgs')
-    if (await exists(f)) {
-        await cleanFileOrDir(f)
-    }
-    await mkDir(f)
+    await mkDir(path.join(f, 'imgs'), {recursive:true})
+    await copyFile(path.join(__dirname, '../public/package.json'), path.join(__dirname, '../dist/package.json'))
 }
 
 ; (async () => {
