@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "validate": "ts-node scripts/validate.ts",
-    "test": "npm run validate"
+    "test": "npm run validate",
+    "pack": "ts-node scripts/pack.ts",
+    "build": "npm run validate && npm run pack"
   },
   "repository": {
     "type": "git",
