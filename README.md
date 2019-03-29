@@ -1,6 +1,6 @@
 # VeChain App-Hub - Submit Form
 
-[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/vechain)
+[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://apps.vechain.org/)
 
 App-Hub is a platform that makes your VeChain App easily discovered worldwide. Once the pull request has been merged, your app will be shown in the App-Hub.
 
