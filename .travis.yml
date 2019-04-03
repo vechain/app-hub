@@ -10,3 +10,6 @@ deploy:
   github_token: $GH_TOKEN # Set in travis-ci.org dashboard
   on:
     branch: master
+after_deploy:
+  - sh scripts/trigger-travis.sh vechain app-hub-app $TRAVIS_ACCESS_TOKEN "AppHub source deployed"
+  
