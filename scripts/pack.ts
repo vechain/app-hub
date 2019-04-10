@@ -12,6 +12,8 @@ const copyFile = promisify(fs.copyFile)
 const mkDir = promisify(fs.mkdir)
 const writeFile = promisify(fs.writeFile)
 
+const SYNC_APP_COUNT = 10
+
 let appCount = 0
 const colors = {
     red(str: string) {
@@ -93,6 +95,7 @@ const cleanOutput = async () => {
         }
         return 0
     })
+    await writeFile(path.join(__dirname, '../dist', 'sync.json'), JSON.stringify(apps.slice(0, SYNC_APP_COUNT)))
     await writeFile(path.join(__dirname, '../dist', 'index.json'), JSON.stringify(apps))
 })().catch(e => {
     console.log(colors.red('Pack apps failed: ' + e.message))
