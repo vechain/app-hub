@@ -1,7 +1,8 @@
 import * as fs from 'fs'
 import { promisify } from 'util'
 import * as path from 'path'
-import { exec }from 'child_process'
+import { exec } from 'child_process'
+const PngQuant = require('pngquant')
 
 const readDir = promisify(fs.readdir)
 const lStat = promisify(fs.lstat)
@@ -53,10 +54,27 @@ const cleanFileOrDir = async (p: string) => {
             }
             await rmDir(p)
         } else {
-            console.log('rmDir', p)
             await rmDir(p)
         }
     }
+}
+
+const compressPngFile = function (src: string, dist: string) {
+    const s = fs.createReadStream(src)
+    const d = fs.createWriteStream(dist)
+    s.pipe(new PngQuant()).pipe(d)
+    
+    return new Promise((resolve, reject) => {
+        s.on('error', err => {
+            reject(err)
+        })
+        d.on('error', err => {
+            reject(err)
+        })
+        d.on('finish', () => {
+            resolve()
+        })
+    })
 }
     
 const cleanOutput = async () => {
@@ -78,7 +96,7 @@ const cleanOutput = async () => {
             continue
         const cTime = await getCreateTimeFromGit(dir)
         const manifest = require(path.join(__dirname, '../apps', dir, 'manifest.json'))
-        await copyFile(path.join(__dirname, '../apps', dir, 'logo.png'), path.join(__dirname, '../dist/imgs', dir+'.png'))
+        await compressPngFile(path.join(__dirname, '../apps', dir, 'logo.png'), path.join(__dirname, '../dist/imgs', dir + '.png'))
         apps.push({
             ...manifest,
             id: dir,

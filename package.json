@@ -28,5 +28,8 @@
     "@types/node": "^11.10.4",
     "ts-node": "^8.0.2",
     "typescript": "^3.3.3333"
+  },
+  "dependencies": {
+    "pngquant": "^2.0.1"
   }
 }
