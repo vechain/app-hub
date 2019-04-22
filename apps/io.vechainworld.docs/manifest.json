@@ -1,6 +1,6 @@
 {
-    "name" : "Info Center",
+    "name" : "Dev Center",
     "href" : "https://doc.vechainworld.io/docs",
-    "desc" : "Information center for VeChainThor developers.",
+    "desc" : "Developer info center for VeChainThor.",
     "tags" : ["tutorials","tools","guides","sample code","turnkey solutions","hardware"]
 }
