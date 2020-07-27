@@ -26,7 +26,7 @@ const colors = {
 }
 
 const getCreateTimeFromGit = async (dir: string): Promise<Date> => {
-    const command = 'git log --diff-filter=A --follow --format=%aD -1 -- [path] | head -1'
+    const command = 'git log --diff-filter=A --follow --format=%aD -- [path] | tail -1'
     const dirPath = path.join(__dirname, '../apps', dir)
     const result = await new Promise<string>((resolve, reject) => {
         exec(command.replace("[path]", dirPath), (err, stdout, stderr) => {
