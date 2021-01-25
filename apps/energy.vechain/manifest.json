@@ -1,0 +1,6 @@
+{
+  "name" : "Signing Service",
+  "href" : "https://vechain.energy/" ,
+  "desc" : "Developer Platform to sponsor transactions without running an own service",
+  "tags" : ["developer","vtho","api"]
+}
