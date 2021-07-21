@@ -1,6 +1,6 @@
 {
   "name" : "Vexchange",
-  "href" : "https://connex.vexchange.io" ,
+  "href" : "https://vexchange.io" ,
   "desc" :"VeChain Thor Decentralized Exchange",
-  "tags" : ["exchange", "dex", "tool", "finance"]
+  "tags" : ["exchange", "dex", "tool", "finance", "utilities"]
 }
