@@ -1,1 +1,3 @@
-export const PROMOTED_APP_IDS: string[] = []
+export const PROMOTED_APP_IDS: string[] = [
+    'com.vimworld.app'
+]
