@@ -1,0 +1,6 @@
+{
+	"name": "VeSea Marketplace",
+	"href": "https://vesea.io",
+	"desc": "A peer-to-peer marketplace for NFTs, rare digital items and crypto collectibles on the VeChain blockchain.",
+	"tags": ["nft","vekings","vesea","market","buy","sell","bid","trade","marketplace"]
+} 
