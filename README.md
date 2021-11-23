@@ -11,6 +11,7 @@ App-Hub is a platform that makes your VeChain App easily discovered worldwide. O
 4. The id must be unique 
 5. Clear description 
 6. Comply with directory & contents rules
+7. One application per submission 
 
 ## Getting Ready for Submission
 ### Fork App-Hub
