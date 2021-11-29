@@ -2,6 +2,7 @@ import * as fs from 'fs'
 import { promisify } from 'util'
 import * as path from 'path'
 import { exec } from 'child_process'
+import { PROMOTED_APP_IDS } from './promoted'
 const PngQuant = require('pngquant')
 
 const readDir = promisify(fs.readdir)
@@ -14,6 +15,7 @@ const mkDir = promisify(fs.mkdir)
 const writeFile = promisify(fs.writeFile)
 
 const SYNC_APP_COUNT = 10
+const MAX_PROMOTED = 3
 
 let appCount = 0
 const colors = {
@@ -64,7 +66,7 @@ const compressPngFile = function (src: string, dist: string) {
     const d = fs.createWriteStream(dist)
     s.pipe(new PngQuant()).pipe(d)
     
-    return new Promise((resolve, reject) => {
+    return new Promise<void>((resolve, reject) => {
         s.on('error', err => {
             reject(err)
         })
@@ -85,6 +87,41 @@ const cleanOutput = async () => {
     }
     await mkDir(path.join(f, 'imgs'), {recursive:true})
     await copyFile(path.join(__dirname, '../public/package.json'), path.join(__dirname, '../dist/package.json'))
+}
+    
+const pickSyncAppList = (apps: { id: string }[]) => {
+    if (apps.length < SYNC_APP_COUNT) {
+        return apps
+    }
+
+    const ids = new Set(PROMOTED_APP_IDS)
+    
+    const initialCnt = SYNC_APP_COUNT - MAX_PROMOTED
+    const sync = apps.slice(0, initialCnt)
+
+    const promoted:{ id: string }[] =[]
+    for (let i = initialCnt; i < apps.length; i++){
+        if (promoted.length >= MAX_PROMOTED) {
+            break
+        }
+
+        if (ids.has(apps[i].id)) {
+            promoted.push(apps[i])
+        }
+    }
+
+
+    for (let i = initialCnt; i < apps.length; i++){
+        if (sync.length + promoted.length >= SYNC_APP_COUNT) {
+            break
+        }
+
+        if (!ids.has(apps[i].id)) {
+            sync.push(apps[i])
+        }
+    }
+    
+    return sync.concat(promoted)
 }
 
 ; (async () => {
@@ -113,7 +150,7 @@ const cleanOutput = async () => {
         }
         return 0
     })
-    await writeFile(path.join(__dirname, '../dist', 'sync.json'), JSON.stringify(apps.slice(0, SYNC_APP_COUNT)))
+    await writeFile(path.join(__dirname, '../dist', 'sync.json'), JSON.stringify(pickSyncAppList(apps)))
     await writeFile(path.join(__dirname, '../dist', 'index.json'), JSON.stringify(apps))
 })().catch(e => {
     console.log(colors.red('Pack apps failed: ' + e.message))
