@@ -1,6 +1,7 @@
 import * as fs from 'fs'
 import { promisify } from 'util'
 import * as path from 'path'
+import imageSize from 'image-size'
     
 const bundleName = /^(([a-z0-9\-]+\.)+)[a-z0-9\-]+$/
 const url = /^(http(s?):\/\/)([a-zA-Z0-9.-]+)(:[0-9]{1,4})?/
@@ -32,10 +33,13 @@ const checkAPP = async (dir: fs.Dirent) => {
             continue
         if (file.name == '.DS_Store' && process.env.CI !== 'true')
             continue
-        console.log(file.name)
         throw new Error('only logo.png and manifest.json allowed')
     }
     ensure(files.length >= 2, 'logo.png and manifest.json are both required')
+
+    const dimensions = await promisify(imageSize)(path.join(__dirname, '../apps', dir.name, 'logo.png'));
+    ensure(!!dimensions&&dimensions.type === 'png', 'logo should be a png file')
+    ensure(!!dimensions && dimensions.height === 512 && dimensions.width===512, 'logo should be 512x512 in pixel size')
 
     const manifest = require(path.join(__dirname, '../apps', dir.name, 'manifest.json'))
     ensure(manifest.name && typeof manifest.name === 'string' && manifest.name.length, 'name should be a string')
