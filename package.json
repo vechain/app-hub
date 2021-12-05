@@ -30,6 +30,7 @@
     "typescript": "^3.3.3333"
   },
   "dependencies": {
+    "image-size": "^1.0.0",
     "pngquant": "^2.0.1"
   }
 }
