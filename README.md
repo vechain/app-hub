@@ -17,12 +17,16 @@ are just guidelines, not rules. Use your best judgment and feel free to propose 
 7. One application per submission
 
 ## Adding your app
+To add your application , it required you to create your app details and make a pull request for the maintainers to review your app and merge into AppHub.
 
-[Fork and clone this repository](https://help.github.com/articles/fork-a-repo/) to create your app details and make a pull request for the maintainers to review your app and  merge into AppHub.
+Recommended workflow:
+- Fork the AppHub
+- Create a new branch
+- Create your app details and upload to the proper directory
+- Make the pull request
 
-All that's required is a basic ***JSON file*** and a ***PNG logo***.
-
-
+Ref: 
+[Fork a repo](https://docs.github.com/en/get-started/quickstart/fork-a-repo)/ [Clone a repo](https://docs.github.com/en/get-started/quickstart/fork-a-repo#cloning-your-forked-repository)/ [Creating a new branch](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-and-deleting-branches-within-your-repository#creating-a-branch)/ [Tutorial: How to make your first pull request on Github by *Thanoshan MV*](https://www.freecodecamp.org/news/how-to-make-your-first-pull-request-on-github-3/)
 ### Create a directory
 Once the AppHub is forked, create a new directory in the `apps` directory with unique id and include a `manifest.json` file and `logo.png` file. To create a unique id, you can append the name of the application to the reversed domain such as  `com.example.your-app-name`.  Your app directory structure should be look like this
 
@@ -80,8 +84,8 @@ Import your app logo into the directory and named it `logo`.
 
 ### Submission Guidelines
 - **The pull request should have a clean git history.**
-- Don't use another company's trademarks (icon, logo or name) without supplying
-  evidence of prior permission
+- Don't use another company's trademarks (icon, logo or name) without supplying evidence of prior permission
+- Create a directory under `/apps/` and contains the *manifest.json* and the *logo.png*
 - Keep description short and simple, but descriptive.
 - Check your spelling and grammar.
 - URL must have schemes of ***http*** or ***https***.
