@@ -129,7 +129,7 @@ const pickSyncAppList = (apps: { id: string }[]) => {
     let apps = []
     let dirs = await readDir(path.join(__dirname, '../apps'))
     for (let dir of dirs) { 
-        if (dir === '.gitkeep')
+        if (dir === '.gitkeep' || dir === '.DS_Store')
             continue
         const cTime = await getCreateTimeFromGit(dir)
         const manifest = require(path.join(__dirname, '../apps', dir, 'manifest.json'))
