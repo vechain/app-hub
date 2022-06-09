@@ -2,5 +2,6 @@
   "name" : "Token Wallet",
   "href" : "https://wallet.mintlab.io/" ,
   "desc" : "Manage VIP181 compatible Tokens",
+  "category": "utilities",
   "tags" : ["nft","vip181","wallet"]
 }

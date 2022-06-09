@@ -2,5 +2,6 @@
     "name" : "adexr.io games center",
     "href" : "https://adexr.io",
     "desc" : "Betting style games built on VeChainThor.",
+    "category": "games",
     "tags" : ["games","gambling","lottery","betting", "slots", "casino"]
 }

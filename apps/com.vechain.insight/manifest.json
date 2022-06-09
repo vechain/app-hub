@@ -2,5 +2,7 @@
     "name" : "Insight",
     "href" : "https://insight.vecha.in/" ,
     "desc" : "Serverless VeChain explorer. It allows you to explore and search for blocks, transactions and accounts.",
-    "tags" : ["utilities","explorer","tool"]
+    "category": "utilities",
+    "tags" : ["utilities","explorer","tool"],
+    "repo": "https://github.com/vechain/insight-app"
 }

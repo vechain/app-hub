@@ -2,5 +2,6 @@
   "name" : "Manager",
   "href" : "https://manager.vechainstats.com/" ,
   "desc" : "One-stop solution for managing VeChain assets and node tokens.",
+  "category": "utilities",
   "tags" : ["wallet","finance","tokens","nodes","transfer"]
 }

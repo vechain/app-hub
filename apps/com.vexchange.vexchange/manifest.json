@@ -2,5 +2,6 @@
   "name" : "Vexchange",
   "href" : "https://vexchange.io" ,
   "desc" :"VeChain Thor Decentralized Exchange",
+  "category": "defi",
   "tags" : ["exchange", "dex", "tool", "finance", "utilities"]
 }

@@ -2,5 +2,6 @@
     "name": "Lucky Airdrop",
     "href": "https://bc66.github.io/lucky-airdrop/",
     "desc": "Sending red envelopes is a way to send good wishes and luck (as well as money).",
+    "category": "utilities",
     "tags": ["game", "red envelope"]
 }
