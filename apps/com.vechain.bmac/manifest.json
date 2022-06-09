@@ -2,5 +2,7 @@
     "name" : "Buy me a coffee",
     "href" : "https://bmac.vecha.in/" ,
     "desc" : "allows your supporter to support your work by donating VET",
-    "tags" : ["social","donation","tool"]
+    "category": "utilities",
+    "tags" : ["social","donation","tool"],
+    "repo": "https://github.com/vechain/buy-me-a-coffee"
 }

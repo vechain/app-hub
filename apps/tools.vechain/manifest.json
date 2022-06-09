@@ -2,5 +2,6 @@
 	"name": "VeTools",
 	"href": "https://vechain.tools/",
 	"desc": "Useful set of tools for VNFTs, DEX Price charts for VET Token Pairs, and much much more.",
+	"category": "utilities",
 	"tags": ["Tools","Tokens","Finance","Analytics","Statistics","Charts","NFT","VNFT"]
 }

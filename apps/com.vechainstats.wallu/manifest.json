@@ -2,5 +2,6 @@
   "name" : "Wallu",
   "href" : "https://wallu.vechainstats.com/" ,
   "desc" : "The first all in one analytic and monitoring tool for VeChain wallets.",
+  "category": "utilities",
   "tags" : ["analytics","insights","monitoring", "statistics"]
 }

@@ -2,5 +2,6 @@
     "name" : "VeRocket (ZumoSwap)",
     "href" : "https://app.verocket.com" ,
     "desc" : "Fast token swap service built for VeChain (formerly ZumoSwap)",
+    "category": "defi",
     "tags" : ["tool", "tokens", "VIP-180"]
 }

@@ -2,5 +2,6 @@
   "name" : "ThorBlock",
   "href" : "https://portal.thorblock.io" ,
   "desc" : "3 different platforms offering decentralised pooling solutions, including Charity and Fundraising ",
+  "category": "utilities",
   "tags" : ["pooling", "charity", "fundraising", "funding turnkey solution"]
 }

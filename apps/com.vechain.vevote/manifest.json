@@ -1,6 +1,14 @@
 {
-    "name" : "VeVote",
-    "href" : "https://vevote.vechain.org/" ,
-    "desc" : "A decentralized voting platform for the VeChain ecosystem.",
-    "tags" : ["voting"]
+    "name": "VeVote",
+    "href": "https://vevote.vechain.org/",
+    "desc": "A decentralized voting platform for the VeChain ecosystem.",
+    "category": "utilities",
+    "tags": [
+        "voting"
+    ],
+    "repo": "https://github.com/vechain/vevote-contracts",
+    "contracts": [
+        "0xa6416a72f816d3a69f33d0814700545c8e3fe4be",
+        "0x7e54f0790153647ec0651c35ced28171adb5d44a"
+    ]
 }

@@ -2,5 +2,6 @@
     "name" : "VeChain IDE",
     "href" : "https://vechainstore.com/ide" ,
     "desc" :"VeChain IDE is a tool to develop, deploy and test contract (solidity) for VeChainThor blockchain.",
+    "category": "utilities",
     "tags" : ["IDE","tool","contract","deploy"]
 }

@@ -2,5 +2,6 @@
     "name": "Real Items",
     "href": "https://realitems.io",
     "desc": "Blockchain smart labels for traceability and a verified marketplace for limited edition merchandise.",
+    "category": "utilities",
     "tags": ["Authenticity", "b2b", "Smart-label", "Anti-counterfeit", "Verification"]
 }

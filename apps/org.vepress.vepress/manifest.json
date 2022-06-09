@@ -2,5 +2,6 @@
   "name" : "VePress",
   "href" : "https://vepress.org",
   "desc" : "VeChain powered CMS/SNS with Social Tipping and Smart Contract Extensions",
+  "category": "utilities",
   "tags" : ["CMS","SNS","blog","social","tip","contract","vip180"]
 }
