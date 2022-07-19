@@ -80,10 +80,13 @@ Create a `manifest.json` file includes app details.
 
 ### Import the Logo & Rules
 Import your app logo into the directory and named it `logo`.
+> A logo is a symbol made up of text and images that identifies an application.
 
 - Must be a `.png`
 - Must be `512px by 512px`
 - Must **not** be a copy of another company's or application's logo
+- Must **not** contain any marketing information (including but not limited to social media links/sale date)
+
 
 ### Submission Guidelines
 - **The pull request should have a clean git history.**
@@ -92,7 +95,7 @@ Import your app logo into the directory and named it `logo`.
 - Keep description short and simple, but descriptive.
 - Check your spelling and grammar.
 - URL must have schemes of ***http*** or ***https***.
-- Logo must ***512px by 512px*** and ***.png*** file format
+- Logo is comply with the logo rules
 
 > If the maintainers/reviewer notice anything that we'd like changed, we'll ask you to edit your PR before we merge it. 
 
