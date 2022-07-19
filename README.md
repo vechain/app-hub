@@ -85,7 +85,7 @@ Import your app logo into the directory and named it `logo`.
 - Must be a `.png`
 - Must be `512px by 512px`
 - Must **not** be a copy of another company's or application's logo
-- Must **not** contains any marketing information (including but not limited to social media links/sale date)
+- Must **not** contain any marketing information (including but not limited to social media links/sale date)
 
 
 ### Submission Guidelines
