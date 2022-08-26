@@ -1,0 +1,11 @@
+{
+    "name": "Satoshi Dice",
+    "href": "https://www.vesea.io/arcade/dice",
+    "desc": "A fun game that serves as a mechanism for lowering the supply of $VSEA. Risk $VSEA to earn $VSEA!",
+    "category": "games"
+    "tags": ["Arcade","VeSea","Dice","VIP-180","VSEA"],
+    "repo": "https://github.com/VeSeaOfficial/public/tree/main/contracts",
+    "contracts": [
+        "tbd"
+    ]
+}
