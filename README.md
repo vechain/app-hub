@@ -50,7 +50,7 @@ Create a `manifest.json` file includes app details.
     "name": "your app name",
     "href": "https://link-to-your-app",
     "desc": "This is an awesome app",
-    "category": "utilities"
+    "category": "utilities",
     "tags": ["tools","development"],
     "repo": "https://github.com/example/projectName",
     "contracts": [
