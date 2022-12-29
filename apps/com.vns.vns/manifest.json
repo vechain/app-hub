@@ -1,7 +1,7 @@
 {
-  "name" : "VeChain Name Service",
+  "name" : "VNS Domains",
   "href" : "https://vns.domains" ,
-  "desc" :"Human Readable Addresses",
+  "desc" :"Your Web3 username on the VeChain blockchain",
   "category": "utilities",
   "tags" : ["address", "utility", "tool"]
 }
