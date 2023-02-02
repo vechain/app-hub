@@ -17,7 +17,7 @@ are just guidelines, not rules. Use your best judgment and feel free to propose 
 7. One application per submission
 
 ## Adding your app
-To add your application , it required you to create your app details and make a pull request for the maintainers to review your app and merge into AppHub.
+To add your application, you need to create your app details and make a pull request for the maintainers to review your app and merge into AppHub.
 
 Recommended workflow:
 - Fork the AppHub
@@ -79,7 +79,7 @@ Create a `manifest.json` file includes app details.
 - utilities
 
 ### Import the Logo & Rules
-Import your app logo into the directory and named it `logo`.
+Import your app logo into the directory and name it `logo`.
 > A logo is a symbol made up of text and images that identifies an application.
 
 - Must be a `.png`
@@ -95,7 +95,7 @@ Import your app logo into the directory and named it `logo`.
 - Keep description short and simple, but descriptive.
 - Check your spelling and grammar.
 - URL must have schemes of ***http*** or ***https***.
-- Logo is comply with the logo rules
+- Logo complies with the logo rules
 
 > If the maintainers/reviewer notice anything that we'd like changed, we'll ask you to edit your PR before we merge it. 
 
