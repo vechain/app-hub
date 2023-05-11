@@ -19,7 +19,7 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  BuildAndDeploy:
+  build:
     runs-on: ubuntu-latest
 
     steps:
