@@ -1,0 +1,7 @@
+{
+  "name" : "Token Swap / Exchange",
+  "href" : "https://swap.vechain.energy/" ,
+  "desc" : "Swap Tokens from other Networks to Vechain. Also available as dApp implementation.",
+  "category": "exchange",
+  "tags" : ["vet", "swap", "exchange", "developer", "vtho"]
+}
