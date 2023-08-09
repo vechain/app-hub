@@ -1,0 +1,12 @@
+{
+  "name": "Fiat On-Ramp",
+  "href": "https://ramp.vechain.energy/",
+  "desc": "Buy VET using Fiat from many different currencies. Also available as dApp implementation.",
+  "category": "defi",
+  "tags": [
+    "vet",
+    "fiat",
+    "ramp",
+    "developer"
+  ]
+}
