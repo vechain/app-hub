@@ -97,6 +97,10 @@ const getChangedFiles = async (): Promise<string[]> => {
     })
 }
 
+const capFirstLetter = (str: string) => { 
+    return str.charAt(0).toUpperCase() + str.slice(1)
+}
+
 if (github.context.eventName === 'pull_request') {
     // pull request action should be configured to run on path 'apps/**'
     void (async () => {
@@ -131,7 +135,7 @@ if (github.context.eventName === 'pull_request') {
                 owner: github.context.issue.owner,
                 repo: github.context.issue.repo,
                 issue_number: github.context.issue.number,
-                body: ':warning: ' + (e as Error).message || 'Validation failed, please check workflow run logs.'
+                body: ':warning: ' + capFirstLetter((e as Error).message) || 'Validation failed, please check workflow run logs.'
             })
         }
         process.exit(1)
