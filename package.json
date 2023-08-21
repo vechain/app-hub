@@ -25,11 +25,12 @@
   },
   "homepage": "https://github.com/vechain/app-hub#readme",
   "devDependencies": {
-    "@types/node": "^11.10.4",
+    "@types/node": "^16.18.41",
     "ts-node": "^8.0.2",
     "typescript": "^3.3.3333"
   },
   "dependencies": {
+    "@actions/github": "^5.1.1",
     "image-size": "^1.0.0",
     "pngquant": "^2.0.1"
   }

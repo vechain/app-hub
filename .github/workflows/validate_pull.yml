@@ -1,0 +1,31 @@
+name:  Validate Pull Request
+on:
+  pull_request:
+    paths:
+      - 'apps/**'
+  
+permissions:
+  contents: read
+  pull-requests: write
+
+jobs:
+  validate-new-app:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v3
+        with:
+          node-version: '16'
+          cache: 'npm'
+
+      - name: Install Dependencies
+        run: npm ci
+  
+      - name: Run validation
+        run: npm run validate
+        env:
+           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
