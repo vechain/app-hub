@@ -41,7 +41,7 @@ jobs:
         if: ${{ github.repository_owner == 'vechain' }}
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.PERSONAL_TOKEN }}
+          personal_token: ${{ secrets.PERSONAL_TOKEN }}
           publish_dir: website/dist/
           cname: apps.vechain.org
           force_orphan: true
