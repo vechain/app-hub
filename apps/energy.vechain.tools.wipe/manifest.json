@@ -1,0 +1,14 @@
+{
+  "name": "Empty Wallet",
+  "href": "https://wipe.tools.vechain.energy/",
+  "desc": "Transfer all your Tokens to a new wallet, leave no dust behind.",
+  "category": "utilities",
+  "tags": [
+    "vet",
+    "wallet",
+    "wipe",
+    "dust",
+    "transfer",
+    "migrate"
+  ]
+}
