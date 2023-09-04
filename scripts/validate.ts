@@ -35,13 +35,13 @@ const ensure = (condition: boolean, msg = 'assert error') => {
     }
 }
 
-const checkAPP = async (dir: fs.Dirent) => {
-    if (!bundleName.test(dir.name)) {
-        throw new Error(`invalid app bundle id: ${dir.name}`)
+const checkAPP = async (appDir: string) => {
+    if (!bundleName.test(appDir)) {
+        throw new Error(`invalid app bundle id: ${appDir}`)
     }
 
     const required = ['manifest.json', 'logo.png']
-    let files = await promisify(fs.readdir)(path.join(__dirname, '../apps', dir.name), { withFileTypes: true })
+    let files = await promisify(fs.readdir)(path.join(__dirname, '../apps', appDir), { withFileTypes: true })
     const fNames: string[] = []
     for (let file of files) {
         ensure(file.isFile(), 'folders are not allowed in app directory')
@@ -57,11 +57,11 @@ const checkAPP = async (dir: fs.Dirent) => {
         ensure(fNames.includes(name), name + ' is required')
     }
 
-    const dimensions = await promisify(imageSize)(path.join(__dirname, '../apps', dir.name, 'logo.png'));
+    const dimensions = await promisify(imageSize)(path.join(__dirname, '../apps', appDir, 'logo.png'));
     ensure(!!dimensions && dimensions.type === 'png', 'logo should be image file in png format')
     ensure(!!dimensions && dimensions.height === 512 && dimensions.width === 512, 'logo should be 512x512 in pixel size')
 
-    const manifest = require(path.join(__dirname, '../apps', dir.name, 'manifest.json'))
+    const manifest = require(path.join(__dirname, '../apps', appDir, 'manifest.json'))
     ensure(manifest.name && typeof manifest.name === 'string', 'name should be a string')
     ensure(manifest.href && typeof manifest.href === 'string' && url.test(manifest.href), 'href should be a url and start with http or https')
     ensure(manifest.desc && typeof manifest.desc === 'string', 'desc should be a string')
@@ -122,8 +122,7 @@ if (github.context.eventName === 'pull_request') {
             throw new ValidationError('please submit only one app at a time')
         }
 
-        const dir = await promisify(fs.opendir)(path.join(__dirname, '../apps' + apps[0]))
-        await checkAPP((await dir.read())!)
+        await checkAPP(apps[0])
     })().catch(async (e) => {
         console.log(colors.red('Validation failed: ' + (e as Error).message))
 
@@ -150,7 +149,7 @@ if (github.context.eventName === 'pull_request') {
         let dirs = await promisify(fs.readdir)(path.join(__dirname, '../apps'), { withFileTypes: true })
         for (let dir of dirs) {
             if (dir.isDirectory()) {
-                await checkAPP(dir).catch(e => { throw new Error(`check ${dir.name} -> ${e.message}`) })
+                await checkAPP(dir.name).catch(e => { throw new Error(`check ${dir.name} -> ${e.message}`) })
                 appCount++
             } else {
                 if (dir.name === '.gitkeep')
