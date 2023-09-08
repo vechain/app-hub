@@ -9,10 +9,9 @@
     "rewards",
     "staking",
     "x-nodes",
-    "defi",
+    "defi"
   ],
   "contracts": [
-    "0xb81e9c5f9644dec9e5e3cac86b4461a222072302",
-    "0x7712a3E90235bF0d44c53919a73D6Dac188d704C",
+    "0xb81e9c5f9644dec9e5e3cac86b4461a222072302"
   ]
 }
