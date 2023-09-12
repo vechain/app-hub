@@ -26,6 +26,13 @@ jobs:
       - name: Build distribution
         run: npm run build
 
+      - name: Deploy apps source website
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: dist/
+          force_orphan: true
+
       - name: Checkout apps repo
         if: ${{ github.repository_owner == 'vechain' }}
         uses: actions/checkout@v3
