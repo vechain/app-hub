@@ -46,7 +46,6 @@ type Manifest = {
     repo?: string
 }
 
-const domains: Record<string, Record<string, {manifest: Manifest, dir: string}>> = {}
 
 const checkIsReachable = async (manifest: Manifest, appDir: string) => {
 
@@ -59,6 +58,8 @@ const checkIsReachable = async (manifest: Manifest, appDir: string) => {
     }
 }
 
+const domains: Record<string,  {manifest: Manifest, dir: string}[]> = {}
+
 const addDomain = async (manifest: Manifest, dir: string) => {
     let domain = manifest.href.split('/')[2]
 
@@ -68,33 +69,24 @@ const addDomain = async (manifest: Manifest, dir: string) => {
     }
 
     if (!domains[domain]) {
-        domains[domain] = {}
+        domains[domain] = []
     }
 
-    if (domains[domain][manifest.name]) {
-        throw new ValidationError(`duplicate app name: ${manifest.name}`)
-    }
-
-    domains[domain][manifest.name] = {
+    domains[domain].push({
         manifest,
         dir,
-    }
+    })
 }
 
 const checkUniqueDomains = () => {
-    for (const domain in domains) {
-        if (Object.keys(domains[domain]).length > 1) {
-            
+
+    for (const domain in domains){
+        if (domains[domain].length > 1) {
             const directories: string[] = []
-
-            for (const name in domains[domain]) {
-                const manifest = domains[domain][name]
-                directories.push(manifest.dir)
+            for (const app of domains[domain]) {
+                directories.push(app.dir)
             }
-
             console.log(colors.red(`domain ${domain} has multiple apps with the same name, ${directories.join(', ')}`))      
-
-
             throw new ValidationError(`domain ${domain} has multiple apps with the same name`)
         }
     }
@@ -128,7 +120,7 @@ const checkAPP = async (appDir: string) => {
 
     const manifest = require(path.join(__dirname, '../apps', appDir, 'manifest.json'))
 
-    await checkIsReachable(manifest, appDir)
+    // await checkIsReachable(manifest, appDir)
     addDomain(manifest, appDir)
 
     ensure(manifest.name && typeof manifest.name === 'string', 'name should be a string')
