@@ -120,7 +120,7 @@ const checkAPP = async (appDir: string) => {
 
     const manifest = require(path.join(__dirname, '../apps', appDir, 'manifest.json'))
 
-    // await checkIsReachable(manifest, appDir)
+    await checkIsReachable(manifest, appDir)
     addDomain(manifest, appDir)
 
     ensure(manifest.name && typeof manifest.name === 'string', 'name should be a string')
