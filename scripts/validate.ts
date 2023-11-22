@@ -127,13 +127,12 @@ const checkAPP = async (appDir: string) => {
     ensure(!!dimensions && dimensions.height === 512 && dimensions.width === 512, 'logo should be 512x512 in pixel size')
 
     const manifest = require(path.join(__dirname, '../apps', appDir, 'manifest.json'))
-    ensure(manifest.name && typeof manifest.name === 'string', 'name should be a string')
-    ensure(manifest.href && typeof manifest.href === 'string' && url.test(manifest.href), 'href should be a url and start with http or https')
 
     await checkIsReachable(manifest, appDir)
-
     addDomain(manifest, appDir)
 
+    ensure(manifest.name && typeof manifest.name === 'string', 'name should be a string')
+    ensure(manifest.href && typeof manifest.href === 'string' && url.test(manifest.href), 'href should be a url and start with http or https')
     ensure(manifest.desc && typeof manifest.desc === 'string', 'desc should be a string')
     ensure(manifest.category && typeof manifest.category === 'string' && category.test(manifest.category), 'invalid category')
     ensure(Array.isArray(manifest.tags), 'tags should be an array')
