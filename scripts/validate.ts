@@ -5,6 +5,7 @@ import { promisify } from 'util'
 import * as path from 'path'
 import imageSize from 'image-size'
 import * as github from '@actions/github'
+import axios from 'axios'
 
 const bundleName = /^(([a-z0-9\-]+\.)+)[a-z0-9\-]+$/
 const url = /^(http(s?):\/\/)([a-zA-Z0-9.-]+)(:[0-9]{1,4})?/
@@ -32,6 +33,70 @@ const colors = {
 const ensure = (condition: boolean, msg = 'assert error') => {
     if (!condition) {
         throw new ValidationError(msg)
+    }
+}
+
+type Manifest = {
+    name: string
+    href: string
+    desc: string
+    category: string
+    tags: string[]
+    contracts?: string[]
+    repo?: string
+}
+
+const domains: Record<string, Record<string, {manifest: Manifest, dir: string}>> = {}
+
+const checkIsReachable = async (manifest: Manifest, appDir: string) => {
+
+    console.log('checking href: ' + manifest.href);
+    
+    try {
+        await axios.get(manifest.href)
+    } catch (e) {
+        throw new ValidationError(`href is not reachable: ${appDir} -> ${manifest.href}`)
+    }
+}
+
+const addDomain = async (manifest: Manifest, dir: string) => {
+    let domain = manifest.href.split('/')[2]
+
+    //remove www prefix
+    if (domain.startsWith('www.')) {
+        domain = domain.slice(4)
+    }
+
+    if (!domains[domain]) {
+        domains[domain] = {}
+    }
+
+    if (domains[domain][manifest.name]) {
+        throw new ValidationError(`duplicate app name: ${manifest.name}`)
+    }
+
+    domains[domain][manifest.name] = {
+        manifest,
+        dir,
+    }
+}
+
+const checkUniqueDomains = () => {
+    for (const domain in domains) {
+        if (Object.keys(domains[domain]).length > 1) {
+            
+            const directories: string[] = []
+
+            for (const name in domains[domain]) {
+                const manifest = domains[domain][name]
+                directories.push(manifest.dir)
+            }
+
+            console.log(colors.red(`domain ${domain} has multiple apps with the same name, ${directories.join(', ')}`))      
+
+
+            throw new ValidationError(`domain ${domain} has multiple apps with the same name`)
+        }
     }
 }
 
@@ -64,6 +129,11 @@ const checkAPP = async (appDir: string) => {
     const manifest = require(path.join(__dirname, '../apps', appDir, 'manifest.json'))
     ensure(manifest.name && typeof manifest.name === 'string', 'name should be a string')
     ensure(manifest.href && typeof manifest.href === 'string' && url.test(manifest.href), 'href should be a url and start with http or https')
+
+    await checkIsReachable(manifest, appDir)
+
+    addDomain(manifest, appDir)
+
     ensure(manifest.desc && typeof manifest.desc === 'string', 'desc should be a string')
     ensure(manifest.category && typeof manifest.category === 'string' && category.test(manifest.category), 'invalid category')
     ensure(Array.isArray(manifest.tags), 'tags should be an array')
@@ -159,12 +229,18 @@ if (github.context.eventName === 'pull_request') {
                 throw new Error('invalid file in apps dir: ' + dir.name)
             }
         }
+
+        checkUniqueDomains()
+
     })().catch(e => {
         console.log(colors.red('Validation failed: ' + e.message))
         process.exit(1)
     }).then(() => {
         console.log(colors.green(`Validation passed, processed ${appCount} apps. Congrats!`))
+
         process.exit(0)
     })
+
+
 }
 
