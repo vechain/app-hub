@@ -5,6 +5,7 @@ import { promisify } from 'util'
 import * as path from 'path'
 import imageSize from 'image-size'
 import * as github from '@actions/github'
+import axios from 'axios'
 
 const bundleName = /^(([a-z0-9\-]+\.)+)[a-z0-9\-]+$/
 const url = /^(http(s?):\/\/)([a-zA-Z0-9.-]+)(:[0-9]{1,4})?/
@@ -101,6 +102,17 @@ const capFirstLetter = (str: string) => {
     return str.charAt(0).toUpperCase() + str.slice(1)
 }
 
+const checkLink = async (appDir: string) => {
+    const manifest = require(path.join(__dirname, '../apps', appDir, 'manifest.json'))
+    const link = manifest.href
+
+    try {
+        await axios.get(link)
+    } catch (e) {
+        throw new ValidationError(`${link} is not reachable`)
+    }
+}
+
 if (github.context.eventName === 'pull_request') {
     // pull request action should be configured to run on path 'apps/**'
     void (async () => {
@@ -123,6 +135,7 @@ if (github.context.eventName === 'pull_request') {
         }
 
         await checkAPP(apps[0])
+        await checkLink(apps[0])
     })().catch(async (e) => {
         console.log(colors.red('Validation failed: ' + (e as Error).message))
 
@@ -144,12 +157,24 @@ if (github.context.eventName === 'pull_request') {
     })
 } else {
     // run full validation if it's not a pull request
+    let validateLink = false
+    if (process.argv.length > 2) {
+        validateLink = process.argv[2] === 'link'
+    }
     let appCount = 0
     void (async () => {
         let dirs = await promisify(fs.readdir)(path.join(__dirname, '../apps'), { withFileTypes: true })
         for (let dir of dirs) {
             if (dir.isDirectory()) {
-                await checkAPP(dir.name).catch(e => { throw new Error(`check ${dir.name} -> ${e.message}`) })
+                try {
+                    if (validateLink) {
+                        await checkLink(dir.name)
+                    } else {
+                        await checkAPP(dir.name)
+                    }
+                } catch (e) {
+                    throw new Error(`check ${dir.name} -> ${(e as Error).message}`)
+                }
                 appCount++
             } else {
                 if (dir.name === '.gitkeep')

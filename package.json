@@ -2,9 +2,9 @@
   "name": "app-hub",
   "version": "0.0.1",
   "description": "awesome vechain apps",
-  "main": "index.js",
   "scripts": {
     "validate": "ts-node scripts/validate.ts",
+    "validate:link": "ts-node scripts/validate.ts link",
     "test": "npm run validate",
     "pack": "ts-node scripts/pack.ts",
     "build": "npm run validate && npm run pack"
@@ -31,6 +31,7 @@
   },
   "dependencies": {
     "@actions/github": "^5.1.1",
+    "axios": "^1.6.2",
     "image-size": "^1.0.0",
     "pngquant": "^2.0.1"
   }
