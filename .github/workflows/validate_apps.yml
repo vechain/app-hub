@@ -1,21 +1,25 @@
-name: Validate apps
-
+name:  Validate Links
 on:
-    workflow_dispatch:
+  workflow_dispatch:
 
 jobs:
-    validate-apps:
-        runs-on: ubuntu-latest
+  validate-links:
+    runs-on: ubuntu-latest
 
-        steps:
-            - name: install dependencies
-              run: |
-                sudo apt-get update
-                sudo apt-get install jq
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
 
-            - name: Checkout repository
-              uses: actions/checkout@v2
+      - uses: actions/setup-node@v3
+        with:
+          node-version: '16'
+          cache: 'npm'
 
-            - name: Run script
-              run: |
-                ./validate-apps.sh
+      - name: Install Dependencies
+        run: npm ci
+  
+      - name: Run validation
+        run: npm run validate:links
+        env:
+           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
