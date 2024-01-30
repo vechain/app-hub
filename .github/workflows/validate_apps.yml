@@ -1,0 +1,21 @@
+name: Validate apps
+
+on:
+    workflow_dispatch:
+
+jobs:
+    validate-apps:
+        runs-on: ubuntu-latest
+
+        steps:
+            - name: install dependencies
+              run: |
+                sudo apt-get update
+                sudo apt-get install jq
+
+            - name: Checkout repository
+              uses: actions/checkout@v2
+
+            - name: Run script
+              run: |
+                ./validate-apps.sh
