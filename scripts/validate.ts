@@ -155,23 +155,37 @@ if (github.context.eventName === 'pull_request') {
         console.log(colors.green(`Validation passed, Congrats!`))
         process.exit(0)
     })
-} else {
+} else if (process.argv.length > 2 && process.argv[2] === 'link') { 
+    // run link validation
+    console.log(colors.green('Validating app links......'))
+    let msg = ''
+    void (async () => { 
+        let dirs = await promisify(fs.readdir)(path.join(__dirname, '../apps'), { withFileTypes: true })
+        for (let dir of dirs) {
+            if (dir.isDirectory()) {
+                try {
+                    await checkLink(dir.name)
+                } catch (e) {
+                    msg += `${dir.name} -> ${(e as Error).message}\n`
+                }
+            }
+        }
+        if (!!msg) {
+            console.log(colors.red('Validation failed: \n' + msg))
+            process.exit(1)
+        }
+        console.log(colors.green('Validation passed!'))
+        process.exit(0)
+    })()
+}else {
     // run full validation if it's not a pull request
-    let validateLink = false
-    if (process.argv.length > 2) {
-        validateLink = process.argv[2] === 'link'
-    }
     let appCount = 0
     void (async () => {
         let dirs = await promisify(fs.readdir)(path.join(__dirname, '../apps'), { withFileTypes: true })
         for (let dir of dirs) {
             if (dir.isDirectory()) {
                 try {
-                    if (validateLink) {
-                        await checkLink(dir.name)
-                    } else {
-                        await checkAPP(dir.name)
-                    }
+                    await checkAPP(dir.name)
                 } catch (e) {
                     throw new Error(`check ${dir.name} -> ${(e as Error).message}`)
                 }
