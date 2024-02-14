@@ -1,0 +1,17 @@
+{
+  "name": "vechain Rewards dApp",
+  "href": "https://app.rewards.vechain.org",
+  "desc": "Explore the Official vechain Rewards dApp - Your solution to effortlessly manage x-nodes, claim rewards and track your reward history. Get started now!",
+  "category": "defi",
+  "tags": [
+    "nft",
+    "vip181",
+    "rewards",
+    "staking",
+    "x-nodes",
+    "defi"
+  ],
+  "contracts": [
+    "0xb81e9c5f9644dec9e5e3cac86b4461a222072302"
+  ]
+}
