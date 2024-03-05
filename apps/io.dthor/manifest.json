@@ -1,0 +1,15 @@
+{
+	"name": "DThor Swap",
+	"href": "https://dthor.io/#/?network=vechain&from=apphub",
+	"desc": "Swap, earn, discover tools, and build on the leading decentralized crypto trading protocol",
+	"category": "defi",
+	"tags": ["DEX","Swap","trade","DeFi","VIP-180","VIP-181","VIP-210","VeFam","Staking","Farming","NFT","gameFi"],
+	"contracts": [
+        "0xe22cbba738159f5851d139d682d79f3b1082bd52",
+		"0xc5d347515bb834f116252d9fb062f99d2d36e750",
+		"0x5871ea5cd4702ce5f28315b137e7539febe53433",
+		"0xb9dfd9eaeeedabeb3ad41f6a88474d4a43a2307d",
+		"0xf6981b45d7aff0f5afbc768530bd1387a05a0a7c",
+		"0xebec91cf281d8bb0f2bc493ab7d315575267a8e4"
+    ]
+}
