@@ -3,5 +3,19 @@
 	"href": "https://vefam.com/#/?network=vechain&from=apphub",
 	"desc": "VeFam distributes and incubates NFT games, GameFi projects, including unique NFT collections and highly entertaining games.",
 	"category": "games",
-	"tags": ["game","games","NFT","NFT game","gameFi","VeFam","Collectibles","VNFT","DeFi","VIP-180","VIP-181","VIP-210"]
+	"tags": [
+		"game",
+		"games",
+		"NFT",
+		"NFT game",
+		"gameFi",
+		"VeFam",
+		"Collectibles",
+		"VNFT",
+		"DeFi",
+		"VIP-180",
+		"VIP-181",
+		"VIP-210"
+	],
+	"isVeWorldCompatible": true
 }

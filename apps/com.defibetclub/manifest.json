@@ -3,5 +3,13 @@
 	"href": "https://app.defibetclub.com/",
 	"desc": "A fun, safe private members club built on VeChain for sports betting enthusiasts!",
 	"category": "games",
-	"tags": ["NFT","Bets","Sports","VIP-181","Collectibles", "Gambling"]
+	"tags": [
+		"NFT",
+		"Bets",
+		"Sports",
+		"VIP-181",
+		"Collectibles",
+		"Gambling"
+	],
+	"isVeWorldCompatible": true
 }

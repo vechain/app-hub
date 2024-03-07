@@ -56,7 +56,8 @@ Create a `manifest.json` file includes app details.
     "contracts": [
         "0x1234567890123456789012345678901234567890",
         "0x0987654321098765432109876543210987654321"
-    ]
+    ],
+    "isVeWorldCompatible": false
 }
 ```
 
@@ -67,6 +68,7 @@ Create a `manifest.json` file includes app details.
 - `tags` is **required**, should be ***an array*** if provided.
 - `repo` is *optional*, and must be a fully-qualified URL.
 - `contracts` is *optional*, should be ***an array*** and ***lower cases*** if provided
+- `isVeWorldCompatible` is compatible with the VeWorld wallet
 - No fields should be left blank.
 
 ### Categories

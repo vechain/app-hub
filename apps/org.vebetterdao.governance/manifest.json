@@ -7,5 +7,6 @@
         "dao",
         "governance",
         "sustainability"
-    ]
+    ],
+    "isVeWorldCompatible": true
 }
