@@ -76,6 +76,7 @@ Create a `manifest.json` file includes app details.
 - `repo` is _optional_, and must be a fully-qualified URL.
 - `contracts` is _optional_, should be **_an array_** and **_lower cases_** if provided
 - `isVeWorldSupported` is _optional_, set this to true if your dApp supports the VeWorld browser extension, enabling its use within the VeWorld mobile wallet. Your dApp will then be listed in the dApp section of the VeWorld mobile discovery.
+- No fields should be left blank.
 
 ### Categories
 
