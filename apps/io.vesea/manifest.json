@@ -14,5 +14,5 @@
 		"trade",
 		"marketplace"
 	],
-	"isVeWorldCompatible": true
+	"isVeWorldSupported": true
 }

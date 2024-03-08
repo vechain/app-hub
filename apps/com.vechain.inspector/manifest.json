@@ -9,5 +9,5 @@
         "tool"
     ],
     "repo": "https://github.com/vechain/inspector-app",
-    "isVeWorldCompatible": true
+    "isVeWorldSupported": true
 }

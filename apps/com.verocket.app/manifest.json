@@ -8,5 +8,5 @@
         "tokens",
         "VIP-180"
     ],
-    "isVeWorldCompatible": true
+    "isVeWorldSupported": true
 }

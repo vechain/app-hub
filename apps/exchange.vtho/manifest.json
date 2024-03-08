@@ -10,5 +10,5 @@
         "exchange",
         "vtho"
     ],
-    "isVeWorldCompatible": true
+    "isVeWorldSupported": true
 }

@@ -17,5 +17,5 @@
 		"VIP-181",
 		"VIP-210"
 	],
-	"isVeWorldCompatible": true
+	"isVeWorldSupported": true
 }

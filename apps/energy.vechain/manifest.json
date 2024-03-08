@@ -8,5 +8,5 @@
     "vtho",
     "api"
   ],
-  "isVeWorldCompatible": true
+  "isVeWorldSupported": true
 }

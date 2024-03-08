@@ -8,5 +8,5 @@
         "domain",
         "service"
     ],
-    "isVeWorldCompatible": true
+    "isVeWorldSupported": true
 }

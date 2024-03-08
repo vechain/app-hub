@@ -9,5 +9,5 @@
         "tool",
         "utility"
     ],
-    "isVeWorldCompatible": true
+    "isVeWorldSupported": true
 }

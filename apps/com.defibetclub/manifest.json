@@ -11,5 +11,5 @@
 		"Collectibles",
 		"Gambling"
 	],
-	"isVeWorldCompatible": true
+	"isVeWorldSupported": true
 }

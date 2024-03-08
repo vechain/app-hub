@@ -10,5 +10,5 @@
         "VNFT",
         "NFT"
     ],
-    "isVeWorldCompatible": true
+    "isVeWorldSupported": true
 }
