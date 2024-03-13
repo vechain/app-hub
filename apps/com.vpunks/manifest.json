@@ -1,7 +1,14 @@
 {
-    "name" : "VPunks",
-    "href" : "https://vpunks.com" ,
-    "desc" :"VPunks NFT & marketplace.",
+    "name": "VPunks",
+    "href": "https://vpunks.com",
+    "desc": "VPunks NFT & marketplace.",
     "category": "collectibles",
-    "tags" : ["NFT","NFTs", "CryptoPunks","marketplace","VIP-181"]
+    "tags": [
+        "NFT",
+        "NFTs",
+        "CryptoPunks",
+        "marketplace",
+        "VIP-181"
+    ],
+    "isVeWorldSupported": false
 }

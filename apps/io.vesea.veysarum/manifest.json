@@ -3,5 +3,12 @@
 	"href": "https://vesea.io/community/veysarum",
 	"desc": "VeSea Community Partner NFT collection. Each image contains over 3 million data points and 25 randomized variables in a physarum-based algorithm.",
 	"category": "collectibles",
-	"tags": ["NFT","Veysarum","VIP-181","Collectibles","VNFT"]
+	"tags": [
+		"NFT",
+		"Veysarum",
+		"VIP-181",
+		"Collectibles",
+		"VNFT"
+	],
+	"isVeWorldSupported": false
 }

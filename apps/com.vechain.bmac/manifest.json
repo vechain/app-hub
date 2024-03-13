@@ -1,8 +1,13 @@
 {
-    "name" : "Buy me a coffee",
-    "href" : "https://bmac.vecha.in/" ,
-    "desc" : "allows your supporter to support your work by donating VET",
+    "name": "Buy me a coffee",
+    "href": "https://bmac.vecha.in/",
+    "desc": "allows your supporter to support your work by donating VET",
     "category": "utilities",
-    "tags" : ["social","donation","tool"],
-    "repo": "https://github.com/vechain/buy-me-a-coffee"
+    "tags": [
+        "social",
+        "donation",
+        "tool"
+    ],
+    "repo": "https://github.com/vechain/buy-me-a-coffee",
+    "isVeWorldSupported": false
 }

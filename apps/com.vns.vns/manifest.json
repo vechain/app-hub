@@ -1,7 +1,12 @@
 {
-  "name" : "VNS Domains",
-  "href" : "https://vns.domains" ,
-  "desc" :"Your Web3 username on the VeChain blockchain",
+  "name": "VNS Domains",
+  "href": "https://vns.domains",
+  "desc": "Your Web3 username on the VeChain blockchain",
   "category": "utilities",
-  "tags" : ["address", "utility", "tool"]
+  "tags": [
+    "address",
+    "utility",
+    "tool"
+  ],
+  "isVeWorldSupported": false
 }

@@ -3,5 +3,13 @@
     "href": "https://www.vesea.io/community/smuzzies",
     "desc": "Smuzzies is a brand and a collection of 4,025 NFT's that exist on the VechainThor blockchain, inspired by a dad and his two young children. For more information about our brand, join our Discord and follow us on Twitter.",
     "category": "collectibles",
-    "tags": ["NFT","Smuzzies","VIP-181","Collectibles","VeSea","3DAbles"]
+    "tags": [
+        "NFT",
+        "Smuzzies",
+        "VIP-181",
+        "Collectibles",
+        "VeSea",
+        "3DAbles"
+    ],
+    "isVeWorldSupported": false
 }
