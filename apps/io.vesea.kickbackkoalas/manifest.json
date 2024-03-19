@@ -3,5 +3,13 @@
 	"href": "https://vesea.io/community/kickbackkoalas",
 	"desc": "Koalas from around the world are getting together for a kickback on the Vechain blockchain. No roadmap, promised utility, or buzz words. Degens only.",
 	"category": "collectibles",
-	"tags": ["NFT","VNFT","kickback","VIP-181","Collectibles","VNFT"]
+	"tags": [
+		"NFT",
+		"VNFT",
+		"kickback",
+		"VIP-181",
+		"Collectibles",
+		"VNFT"
+	],
+	"isVeWorldSupported": false
 }

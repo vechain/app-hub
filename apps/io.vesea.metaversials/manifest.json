@@ -3,5 +3,13 @@
 	"href": "https://vesea.io/community/metaversials",
 	"desc": "Metaversials is a collection of 2,500 one-of-a-kind metadudes inspired by comics, movies and pop cultures.",
 	"category": "collectibles",
-	"tags": ["NFT","Mevex","Metaversials","VIP-181","Collectibles","VNFT"]
+	"tags": [
+		"NFT",
+		"Mevex",
+		"Metaversials",
+		"VIP-181",
+		"Collectibles",
+		"VNFT"
+	],
+	"isVeWorldSupported": false
 }

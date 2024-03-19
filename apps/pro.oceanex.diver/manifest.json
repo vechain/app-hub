@@ -3,5 +3,10 @@
   "href": "https://diver.oceanex.pro/",
   "desc": "OceanEx special 4th Anniversary Mystery Box event to thank and give back to our beloved community!",
   "category": "collectibles",
-  "tags": ["NFT", "OceanEx", "vip181"]
+  "tags": [
+    "NFT",
+    "OceanEx",
+    "vip181"
+  ],
+  "isVeWorldSupported": false
 }

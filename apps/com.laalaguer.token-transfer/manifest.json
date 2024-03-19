@@ -3,5 +3,10 @@
     "href": "https://laalaguer.github.io/vechain-token-transfer/",
     "desc": "Listing of all VIP180 VeChain tokens and enables their transfer.",
     "category": "defi",
-    "tags": ["vip180", "token", "transfer"]
+    "tags": [
+        "vip180",
+        "token",
+        "transfer"
+    ],
+    "isVeWorldSupported": false
 }

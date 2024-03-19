@@ -9,5 +9,6 @@
     "dust",
     "transfer",
     "migrate"
-  ]
+  ],
+  "isVeWorldSupported": false
 }
