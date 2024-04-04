@@ -3,5 +3,13 @@
     "href": "https://worldofv.art/playground/lottery/vebounce-blockchain-lottery",
     "desc": "Play the lottery on November 3rd, 8PM UTC by submitting your VeBounce. Each collectible can only be used once. Only 1000 slots available on a first come, first served basis.",
     "category": "games",
-    "tags": ["VeBounce", "WoV" , "Lottery", "ExPlus", "ATP", "Prizes"]
+    "tags": [
+        "VeBounce",
+        "WoV",
+        "Lottery",
+        "ExPlus",
+        "ATP",
+        "Prizes"
+    ],
+    "isVeWorldSupported": false
 }

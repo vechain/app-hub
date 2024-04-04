@@ -13,5 +13,6 @@
   ],
   "contracts": [
     "0xb81e9c5f9644dec9e5e3cac86b4461a222072302"
-  ]
+  ],
+  "isVeWorldSupported": true
 }

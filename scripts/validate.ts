@@ -67,6 +67,7 @@ const checkAPP = async (appDir: string) => {
     ensure(manifest.href && typeof manifest.href === 'string' && url.test(manifest.href), 'href should be a url and start with http or https')
     ensure(manifest.desc && typeof manifest.desc === 'string', 'desc should be a string')
     ensure(manifest.category && typeof manifest.category === 'string' && category.test(manifest.category), 'invalid category')
+    ensure(manifest.hasOwnProperty('isVeWorldSupported') && typeof manifest.isVeWorldSupported === 'boolean', 'isVeWorldSupported is required and should be a boolean')
     ensure(Array.isArray(manifest.tags), 'tags should be an array')
     if (manifest.repo) {
         ensure(manifest.repo && typeof manifest.repo === 'string' && url.test(manifest.repo), 'repo should be a url and start with http or https')

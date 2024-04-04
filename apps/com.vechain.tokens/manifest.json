@@ -1,8 +1,14 @@
 {
-    "name" : "My Tokens",
-    "href" : "https://tokens.vecha.in/#/" ,
-    "desc" : "My Tokens,My Treasure ",
+    "name": "My Tokens",
+    "href": "https://tokens.vecha.in/#/",
+    "desc": "My Tokens,My Treasure ",
     "category": "defi",
-    "tags" : ["transfer","tokens","tool","utility"],
-    "repo": "https://github.com/vechain/my-tokens"
+    "tags": [
+        "transfer",
+        "tokens",
+        "tool",
+        "utility"
+    ],
+    "repo": "https://github.com/vechain/my-tokens",
+    "isVeWorldSupported": false
 }

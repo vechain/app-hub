@@ -3,5 +3,14 @@
 	"href": "https://vesea.io/vekings",
 	"desc": "Your window to the VeKings NFT Universe and Marketplace",
 	"category": "collectibles",
-	"tags": ["nft","vekings","vesea","market","buy","sell","bid"]
+	"tags": [
+		"nft",
+		"vekings",
+		"vesea",
+		"market",
+		"buy",
+		"sell",
+		"bid"
+	],
+	"isVeWorldSupported": false
 }

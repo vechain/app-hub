@@ -3,5 +3,10 @@
   "href": "https://nft.oceanex.pro/",
   "desc": "The markeplace for trading NFTs and crypto collections built on the VeChain blockchain and powered by OceanEx.",
   "category": "marketplaces",
-  "tags": ["NFT", "OceanEx", "vip181"]
+  "tags": [
+    "NFT",
+    "OceanEx",
+    "vip181"
+  ],
+  "isVeWorldSupported": true
 }

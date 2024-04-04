@@ -1,7 +1,16 @@
 {
-  "name" : "VeChainStats",
-  "href" : "https://vechainstats.com/" ,
-  "desc" : "Extensive VeChain mainnet statistics, charts, account explorer and more.",
+  "name": "VeChainStats",
+  "href": "https://vechainstats.com/",
+  "desc": "Extensive VeChain mainnet statistics, charts, account explorer and more.",
   "category": "utilities",
-  "tags" : ["accounts","analytics","charts","insights","monitoring", "statistics","tools"]
+  "tags": [
+    "accounts",
+    "analytics",
+    "charts",
+    "insights",
+    "monitoring",
+    "statistics",
+    "tools"
+  ],
+  "isVeWorldSupported": false
 }
