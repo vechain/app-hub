@@ -1,0 +1,17 @@
+
+{
+    "name": "Non-Fungible Book Club",
+    "href": "https://www.nfbclub.com/",
+    "desc": "Audio streaming platform offering audiobooks and music ad non-fungible tokens (NFTs). Service model focused on minting, token-gating, hosting audio on a native media player and promoting Audio NFTs.",
+    "category": "marketplaces",
+    "tags": ["audio","platform", "service", "NFT", "digital collectibles"],
+    "repo": "https://github.com/dgutierrez1987/NFBCBeta",
+    "contracts": [
+        "0x6ACfa16837Fec2c1ECE920c16d6890164fF19495",
+        "0x8C36099091bF1ef928681f76979E8BF07C54fe5f", 
+        "0xE3Ee009A2e2AB3A809a9c31b49b62171C009fa1c",
+        "0x1b025f6d6B3771E4fF3A4187F698771bd1Dc6A9E",
+        "0x57068096cB6BeeDB1e0907FEF6170599Cc6Fe372",
+        "0xb86e69409E3c5a3895eAa9B398b369DEb5dc69FB"
+    ]
+}
