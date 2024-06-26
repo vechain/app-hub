@@ -1,7 +1,14 @@
 {
-  "name" : "SafeSwap",
-  "href" : "https://app.safeswap.io" ,
-  "desc" : "Cross-Chain Bridge for Atomic Swaps of Digital Assets Between Different Blockchains",
+  "name": "SafeSwap",
+  "href": "https://app.safeswap.io",
+  "desc": "Cross-Chain Bridge for Atomic Swaps of Digital Assets Between Different Blockchains",
   "category": "defi",
-  "tags" : ["atomic swaps", "bridge", "cross-chain", "scalability", "tokenomics"]
+  "tags": [
+    "atomic swaps",
+    "bridge",
+    "cross-chain",
+    "scalability",
+    "tokenomics"
+  ],
+  "isVeWorldSupported": true
 }

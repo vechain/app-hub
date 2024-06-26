@@ -12,5 +12,6 @@
         "marketplace",
         "edit",
         "wall"
-    ]
+    ],
+    "isVeWorldSupported": false
 }
