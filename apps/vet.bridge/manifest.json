@@ -1,0 +1,13 @@
+{
+  "name": "bridge.vet",
+  "href": "https://bridge.vet/",
+  "desc": "Cross-Chain Swap",
+  "category": "defi",
+  "tags": [
+    "vet",
+    "swap",
+    "exchange",
+    "vtho"
+  ],
+  "isVeWorldSupported": true
+}
