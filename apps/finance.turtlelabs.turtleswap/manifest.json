@@ -3,6 +3,13 @@
 	"href": "https://TurtleSwap.TurtleLabs.Finance",
 	"desc": "VeChains Newest Decentralized Exchange, Part of the Turtle Labs DeFi Ecosystem.",
 	"category": "defi",
-	"tags": ["exchange", "dex", "tool", "finance", "utilities"],
+	"tags": [
+    "exchange",
+    "dex",
+    "tool",
+    "finance",
+    "utilities",
+    "swap"
+  ],
 	"isVeWorldSupported": true
 }
