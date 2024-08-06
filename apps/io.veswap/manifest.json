@@ -1,14 +1,15 @@
 {
-	"name": "VeSwap",
-	"href": "https://veswap.io/",
-	"desc": "A DEX built on VeChain to support a sustainable ecosystem.",
-	"category": "defi",
-	"tags": [
-		"defi",
-		"sustainability",
-		"exchange",
-		"b3tr",
-		"dapp"
-	],
-	"isVeWorldSupported": true
+  "name": "VeSwap",
+  "href": "https://veswap.io/",
+  "desc": "A DEX built on VeChain to support a sustainable ecosystem.",
+  "category": "defi",
+  "tags": [
+    "defi",
+    "sustainability",
+    "exchange",
+    "b3tr",
+    "dapp",
+    "swap"
+  ],
+  "isVeWorldSupported": true
 }
