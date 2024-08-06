@@ -1,9 +1,9 @@
 {
-	"name": "Turtle Swap",
-	"href": "https://TurtleSwap.TurtleLabs.Finance",
-	"desc": "VeChains Newest Decentralized Exchange, Part of the Turtle Labs DeFi Ecosystem.",
-	"category": "defi",
-	"tags": [
+  "name": "Turtle Swap",
+  "href": "https://TurtleSwap.TurtleLabs.Finance",
+  "desc": "VeChains Newest Decentralized Exchange, Part of the Turtle Labs DeFi Ecosystem.",
+  "category": "defi",
+  "tags": [
     "exchange",
     "dex",
     "tool",
@@ -11,5 +11,5 @@
     "utilities",
     "swap"
   ],
-	"isVeWorldSupported": true
+  "isVeWorldSupported": true
 }
