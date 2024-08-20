@@ -20,5 +20,10 @@
         "Battles",
         "Training"
     ],
+    "contracts": [
+        "0xf46d132cfcb13da70c0806921d05ab3057d8badd",
+        "0xb8270ca93379de8245d653070d958ae28b91B01c",
+        "0x9b84cf29c8b5b906dd88e85fe6262f1ce1384f6b"
+    ],
     "isVeWorldSupported": true
 }
