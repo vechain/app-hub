@@ -1,7 +1,15 @@
- {
-     "name": "BlackVeMarket",
-     "href": "https://blackvemarket.com",
-     "desc": "Discover Limitless NFT Experiences with BlackVeMarket: Where the VeFam Unites! Join our Vibrant Community and Explore the Boundless World of Digital Collectibles, Trading, and Creativity. Embrace the Future of NFTs and Unleash Your Imagination with BlackVeMarket!",
-     "category": "marketplaces",
-     "tags": ["NFT", "Marketplace", "VIP-181", "Collectibles", "VNFT", "BlackVe"]
- }
+{
+    "name": "BlackVeMarket",
+    "href": "https://blackvemarket.com",
+    "desc": "Discover Limitless NFT Experiences with BlackVeMarket: Where the VeFam Unites! Join our Vibrant Community and Explore the Boundless World of Digital Collectibles, Trading, and Creativity. Embrace the Future of NFTs and Unleash Your Imagination with BlackVeMarket!",
+    "category": "marketplaces",
+    "tags": [
+        "NFT",
+        "Marketplace",
+        "VIP-181",
+        "Collectibles",
+        "VNFT",
+        "BlackVe"
+    ],
+    "isVeWorldSupported": true
+}

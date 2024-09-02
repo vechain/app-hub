@@ -1,7 +1,13 @@
 {
-    "name" : "Token Transfer",
-    "href" : "https://vet-token-transfer.vercel.app/" ,
-    "desc" : "Transfer any of the VIP-180 tokens in the vechain ecosystem!",
+    "name": "Token Transfer",
+    "href": "https://vet-token-transfer.vercel.app/",
+    "desc": "Transfer any of the VIP-180 tokens in the vechain ecosystem!",
     "category": "utilities",
-    "tags" : ["transfer","tokens","tool","utility"]
+    "tags": [
+        "transfer",
+        "tokens",
+        "tool",
+        "utility"
+    ],
+    "isVeWorldSupported": true
 }

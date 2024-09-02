@@ -1,0 +1,16 @@
+{
+    "name": "myVeChain",
+    "href": "https://myvechain.com",
+    "desc": "Live VeChainThor Blockchain Visualizer. See daily transactions & clauses in a fun way!",
+    "category": "utilities",
+    "tags": [
+        "accounts",
+        "analytics",
+        "charts",
+        "insights",
+        "monitoring",
+        "statistics",
+        "tools"
+    ],
+    "isVeWorldSupported": true
+  }

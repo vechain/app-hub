@@ -3,5 +3,12 @@
     "href": "https://sharksofanarchy.com/",
     "desc": "Sharks of anarchy, The first motorcycle Gang on VeChain! Will get their own DLC inside Thugs Paradise P2E Game.",
     "category": "collectibles",
-    "tags": ["VIP-181", "VNFT", "collectable", "sharks", "pixelart"]
+    "tags": [
+        "VIP-181",
+        "VNFT",
+        "collectable",
+        "sharks",
+        "pixelart"
+    ],
+    "isVeWorldSupported": false
 }

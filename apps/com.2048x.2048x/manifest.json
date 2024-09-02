@@ -3,5 +3,10 @@
   "href": "https://play2048x.com",
   "desc": "2048x is a challenging number puzzle for kids and grown ups.",
   "category": "games",
-  "tags": ["game", "games", "fun"]
+  "tags": [
+    "game",
+    "games",
+    "fun"
+  ],
+  "isVeWorldSupported": false
 }

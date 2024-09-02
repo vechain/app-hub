@@ -8,5 +8,6 @@
     "fiat",
     "ramp",
     "developer"
-  ]
+  ],
+  "isVeWorldSupported": true
 }
