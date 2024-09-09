@@ -19,9 +19,9 @@
     ],
     "contracts": [
         "0xf46d132cfc813da70c0806921d05ab3057d8badd",
-        "0x88270ca93379de8245d653070d958ae28b91B01c",
+        "0x88270ca93379de8245d653070d958ae28b91b01c",
         "0x5336396c28c2c565d04bd6768506a88557b62da6",
-        "0x84B0caf6436aace4e21d10f126963fdd53ac31ea"
+        "0x84b0caf6436aace4e21d10f126963fdd53ac31ea"
     ],
     "isVeWorldSupported": true
 }
