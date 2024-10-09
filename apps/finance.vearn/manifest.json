@@ -1,0 +1,12 @@
+{
+  "name": "Vearn Finance",
+  "href": "https://vearn.finance",
+  "desc": "Boost your VET balance by automatically exchanging generated VTHO tokens for extra VET using advanced strategies.",
+  "category": "defi",
+  "tags": ["vtho", "vet", "swap", "exchange"],
+  "repo": "https://github.com/vearnfi",
+  "contracts": [
+      "0xff3c6dabd0dcaf77363d59fdbc52939073f88014"
+  ],
+  "isVeWorldSupported": true
+}
