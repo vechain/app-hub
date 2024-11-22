@@ -9,7 +9,10 @@
         "aggregator",
         "finance",
         "farming",
-        "exchange"
+        "exchange",
+        "staking",
+        "pool2earn"
     ],
+    "repo": "https://github.com/databeforedishonor/betterSwap",
     "isVeWorldSupported": true
 }
