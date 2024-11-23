@@ -11,7 +11,8 @@
         "farming",
         "exchange",
         "staking",
-        "pool2earn"
+        "pool2earn",
+        "swap"
     ],
     "repo": "https://github.com/databeforedishonor/betterSwap",
     "isVeWorldSupported": true
