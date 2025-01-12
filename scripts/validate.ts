@@ -9,7 +9,7 @@ import axios from 'axios'
 
 const bundleName = /^(([a-z0-9\-]+\.)+)[a-z0-9\-]+$/
 const url = /^(http(s?):\/\/)([a-zA-Z0-9.-]+)(:[0-9]{1,4})?/
-const address = /^0x[a-f0-9]{40}$/
+const address = /^0x[a-fA-F0-9]{40}$/
 const category = /collectibles|defi|games|marketplaces|utilities/
 
 class ValidationError extends Error {
