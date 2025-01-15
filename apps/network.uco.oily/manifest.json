@@ -1,14 +1,9 @@
 {
-    "name": "Oily",
-    "href": "https://oily.uco.network",
-    "desc": "Oily dApp by UCO Network enables users to engage in the UCO economy through learning, mapping, and recycling. Educate yourself on sustainable practices, connect with local restaurants and share about their cooking oil disposal habits, and conveniently dispose of your household cooking oil. Earn rewards for your contributions through our 'learn to earn,' 'map to earn,' and 'recycle to earn' initiatives. Join today and get rewarded!",
-    "category": "utilities",
-    "tags": [
-        "b3tr",
-        "learn",
-        "recycle",
-        "green",
-        "uco"
-    ],
-    "isVeWorldSupported": true
+  "name": "Oily",
+  "href": "https://oily.uco.network",
+  "desc": "Oily dApp by UCO Network enables users to engage in the UCO economy through learning, mapping, and recycling. Educate yourself on sustainable practices, connect with local restaurants and share about their cooking oil disposal habits, and conveniently dispose of your household cooking oil. Earn rewards for your contributions through our 'learn to earn,' 'map to earn,' and 'recycle to earn' initiatives. Join today and get rewarded!",
+  "category": "utilities",
+  "tags": ["b3tr", "learn", "recycle", "green", "uco"],
+  "isVeWorldSupported": true,
+  "veBetterDaoId": "0xcd9f16381818b575a55661602638102b2b8497a202bb2497bb2a3a2cd438e85d"
 }

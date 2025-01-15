@@ -1,11 +1,9 @@
 {
-    "name": "EVearn",
-    "href": "https://evearn.io/",
-    "desc": "Earn rewards for charging your Tesla and reducing your carbon footprint.",
-    "category": "defi",
-    "tags": [
-        "dapp",
-        "sustainability"
-    ],
-    "isVeWorldSupported": true
+  "name": "EVearn",
+  "href": "https://evearn.io/",
+  "desc": "Earn rewards for charging your Tesla and reducing your carbon footprint.",
+  "category": "defi",
+  "tags": ["dapp", "sustainability"],
+  "isVeWorldSupported": true,
+  "veBetterDaoId": "0x6c977a18d427360e27c3fc2129a6942acd4ece2c8aaeaf4690034931dc5ba7f9"
 }

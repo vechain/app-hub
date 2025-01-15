@@ -1,11 +1,9 @@
 {
-    "name": "Carboneers",
-    "href": "https://pauseyourcarbon.com/",
-    "desc": "Earn rewards for buying back your carbon footprint.",
-    "category": "defi",
-    "tags": [
-        "dapp",
-        "sustainability"
-    ],
-    "isVeWorldSupported": true
+  "name": "Carboneers",
+  "href": "https://pauseyourcarbon.com/",
+  "desc": "Earn rewards for buying back your carbon footprint.",
+  "category": "defi",
+  "tags": ["dapp", "sustainability"],
+  "isVeWorldSupported": true,
+  "veBetterDaoId": "0xe19c5e83670576cac1cee923e1f92990387bf701af06ff3e0c5f1be8d265c478"
 }
