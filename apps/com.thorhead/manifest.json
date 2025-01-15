@@ -1,0 +1,21 @@
+{
+  "name": "Thorhead",
+  "href": "https://thorhead.com",
+  "desc": "Grow your forehead with Thorhead",
+  "category": "collectibles",
+  "tags": [
+    "NFT",
+    "VTHO",
+    "learn",
+    "dapp",
+    "ERC-721",
+    "VIP-191",
+    "VIP-192",
+    "VIP-201",
+    "pfp"
+  ],
+  "contracts": [
+    "0x24ee6e8d0ffcca3d73eada5c8585301f2bc10d60"
+  ],
+  "isVeWorldSupported": true
+}
