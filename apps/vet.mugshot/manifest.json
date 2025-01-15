@@ -1,11 +1,9 @@
 {
-    "name": "Mugshot",
-    "href": "https://mugshot.vet",
-    "desc": "Innovative dApp dedicated to revolutionize the way coffee enthusiasts approach sustainability in their daily coffee consumption.",
-    "category": "defi",
-    "tags": [
-        "dapp",
-        "sustainability"
-    ],
-    "isVeWorldSupported": true
+  "name": "Mugshot",
+  "href": "https://mugshot.vet",
+  "desc": "Innovative dApp dedicated to revolutionize the way coffee enthusiasts approach sustainability in their daily coffee consumption.",
+  "category": "defi",
+  "tags": ["dapp", "sustainability"],
+  "isVeWorldSupported": true,
+  "veBetterDaoId": "0x2fc30c2ad41a2994061efaf218f1d52dc92bc4a31a0f02a4916490076a7a393a"
 }
