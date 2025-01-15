@@ -4,5 +4,8 @@
   "desc": "Tokenizing Real-World Solar Projects: Earn Rewards from Electricity Sales with SolarWise!",
   "category": "defi",
   "tags": ["dapp", "sustainability", "nft"],
+  "contracts": [
+    "0x1cdf0d2cc9bb81296647c3b6baae1006471a719e67c6431155db920d71242afb"
+  ],
   "isVeWorldSupported": true
 }

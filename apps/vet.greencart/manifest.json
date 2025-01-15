@@ -4,5 +4,8 @@
   "desc": "Shop, Scan, Earn! Turn your grocery receipts into rewards with our sustainable shopping app. Make every purchase count for a greener future.",
   "category": "defi",
   "tags": ["dapp", "sustainability"],
+  "contracts": [
+    "0x9643ed1637948cc571b23f836ade2bdb104de88e627fa6e8e3ffef1ee5a1739a"
+  ],
   "isVeWorldSupported": true
 }
