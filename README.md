@@ -64,7 +64,8 @@ Create a `manifest.json` file includes app details.
         "0x1234567890123456789012345678901234567890",
         "0x0987654321098765432109876543210987654321"
     ],
-    "isVeWorldSupported": false
+    "isVeWorldSupported": false,
+    "veBetterDaoId": "0x821a9ae30590c7c11e0ebc03b27902e8cae0f320ad27b0f5bde9f100eebcb5a7"
 }
 ```
 
@@ -76,6 +77,7 @@ Create a `manifest.json` file includes app details.
 - `isVeWorldSupported` is **required**, set this to true if your dApp supports the VeWorld browser extension, enabling its use within the VeWorld mobile wallet. Your dApp will then be listed in the dApp section of the VeWorld mobile discovery.
 - `repo` is _optional_, and must be a fully-qualified URL.
 - `contracts` is _optional_, should be **_an array_** and **_lower cases_** if provided
+- `veBetterDaoId` is **required** for VeBetterDAO DApps
 - No fields should be left blank.
 
 ### Categories
