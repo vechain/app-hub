@@ -1,0 +1,20 @@
+{
+  "name": "BetterSwap",
+  "href": "https://swap.tbc.vet",
+  "desc": "Trade Smart. Trade Better. The BetterSwap DEX always gets you the Better deal.",
+  "category": "defi",
+  "tags": [
+    "dapp",
+    "dex",
+    "aggregator",
+    "finance",
+    "farming",
+    "exchange",
+    "staking",
+    "pool2earn",
+    "swap"
+  ],
+  "repo": "https://github.com/databeforedishonor/betterSwap",
+  "isVeWorldSupported": true,
+  "veBetterDaoId": "0x2703ee39ee00a34177202a3fd1fd031bb37ab1eddd70fa1ed73ad6eee86c6ee0"
+}

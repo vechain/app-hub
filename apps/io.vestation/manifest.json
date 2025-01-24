@@ -1,0 +1,14 @@
+{
+  "name": "VeStation",
+  "href": "https://vestation.io/",
+  "desc": "VeStation is an all-in-one DeFi platform built on VeChain, offering innovative tools to help users maximize returns on assets like VET, B3TR, and other tokens while contributing to the VeChain ecosystem",
+  "category": "defi",
+  "tags": [
+    "defi",
+    "b3tr",
+    "staking",
+    "sustainability",
+    "voting"
+  ],
+  "isVeWorldSupported": true
+}

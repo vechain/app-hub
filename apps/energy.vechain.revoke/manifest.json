@@ -1,0 +1,10 @@
+{
+  "name": "Revoke Management",
+  "href": "https://revoke.vechain.energy/",
+  "desc": "Revoke Approvals for Tokens",
+  "category": "defi",
+  "tags": [
+    "security"
+  ],
+  "isVeWorldSupported": true
+}
