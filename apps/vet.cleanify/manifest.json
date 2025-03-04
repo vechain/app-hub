@@ -1,11 +1,9 @@
 {
-    "name": "Cleanify",
-    "href": "https://cleanify.vet",
-    "desc": "Innovative dApp dedicated to incentivizing users to preserve the cleanliness of our planet.",
-    "category": "defi",
-    "tags": [
-        "dapp",
-        "sustainability"
-    ],
-    "isVeWorldSupported": true
+  "name": "Cleanify",
+  "href": "https://app.cleanify.vet",
+  "desc": "Keep it trashy (but clean)! Turn litter into $B3TR rewards with Cleanify",
+  "category": "defi",
+  "tags": ["dapp", "sustainability"],
+  "isVeWorldSupported": true,
+  "veBetterDaoId": "0x899de0d0f0b39e484c8835b2369194c4c102b230c813862db383d44a4efe14d3"
 }

@@ -1,0 +1,9 @@
+{
+  "name": "Green Commuter",
+  "href": "https://greencommuter.vet",
+  "desc": "Earn rewards for saving CO2 on your favourite commutes. Run, Walk or Cycle to earn rewards with your Strava app",
+  "category": "defi",
+  "tags": ["dapp", "sustainability"],
+  "isVeWorldSupported": true,
+  "veBetterDaoId": "0x6a825c7d259075d70a88cbd1932604ee3009777e14645ced6881a32b9c165ca4"
+}

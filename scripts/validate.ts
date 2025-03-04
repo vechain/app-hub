@@ -10,6 +10,7 @@ import axios from 'axios'
 const bundleName = /^(([a-z0-9\-]+\.)+)[a-z0-9\-]+$/
 const url = /^(http(s?):\/\/)([a-zA-Z0-9.-]+)(:[0-9]{1,4})?/
 const address = /^0x[a-f0-9]{40}$/
+const byte32 = /^0x[a-f0-9]{64}$/
 const category = /collectibles|defi|games|marketplaces|utilities/
 
 class ValidationError extends Error {
@@ -69,10 +70,10 @@ const checkAPP = async (appDir: string) => {
     ensure(manifest.category && typeof manifest.category === 'string' && category.test(manifest.category), 'invalid category')
     ensure(manifest.hasOwnProperty('isVeWorldSupported') && typeof manifest.isVeWorldSupported === 'boolean', 'isVeWorldSupported is required and should be a boolean')
     ensure(Array.isArray(manifest.tags), 'tags should be an array')
-    if (manifest.repo) {
+    if (manifest.hasOwnProperty('repo')) {
         ensure(manifest.repo && typeof manifest.repo === 'string' && url.test(manifest.repo), 'repo should be a url and start with http or https')
     }
-    if (manifest.contracts) {
+    if (manifest.hasOwnProperty('contracts')) {
         ensure(Array.isArray(manifest.contracts), 'contracts should be an array')
         manifest.contracts.forEach((contract: any) => {
             ensure(contract && typeof contract === 'string' && address.test(contract), 'invalid contract address')
@@ -81,6 +82,9 @@ const checkAPP = async (appDir: string) => {
     manifest.tags.forEach((tag: string) => {
         ensure(!!tag && !!tag.length, 'tags should be a string')
     });
+    if (manifest.hasOwnProperty('veBetterDaoId')) {
+        ensure(manifest.veBetterDaoId && typeof manifest.veBetterDaoId === 'string' && byte32.test(manifest.veBetterDaoId), 'invalid veBetterDaoId')
+    }
 }
 
 const getChangedFiles = async (): Promise<string[]> => {
