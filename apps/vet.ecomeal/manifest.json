@@ -1,0 +1,9 @@
+{
+  "name": "EcoMeal",
+  "href": "https://ecomeal.vet",
+  "desc": "Snap a photo of your plastic-free meal, share it with the community, and earn rewards for making sustainable food decisions.",
+  "category": "defi",
+  "tags": ["dapp", "sustainability"],
+  "isVeWorldSupported": true,
+  "veBetterDaoId": "0x54ac74eb150845171b72562f7d091cfbd3a20af91f21d26a2e9c5c97341c97c6"
+}
