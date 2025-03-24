@@ -1,6 +1,6 @@
 {
   "name": "BetterSwap",
-  "href": "https://swap.tbc.vet",
+  "href": "https://www.betterswap.io",
   "desc": "Trade Smart. Trade Better. The BetterSwap DEX always gets you the Better deal.",
   "category": "defi",
   "tags": [
@@ -12,7 +12,8 @@
     "exchange",
     "staking",
     "pool2earn",
-    "swap"
+    "swap",
+    "sustainability"
   ],
   "repo": "https://github.com/databeforedishonor/betterSwap",
   "isVeWorldSupported": true,
