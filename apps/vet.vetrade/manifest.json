@@ -1,0 +1,8 @@
+{
+  "name": "VeTrade",
+  "href": "https://vetrade.vet/",
+  "desc": "A non-custodial exchange on VeChain providing the best routes and limit orders.",
+  "category": "defi",
+  "tags": ["defi", "sustainability", "exchange", "swap"],
+  "isVeWorldSupported": true
+}
