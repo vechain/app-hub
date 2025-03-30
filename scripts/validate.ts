@@ -112,6 +112,7 @@ const checkLink = async (appDir: string) => {
     const link = manifest.href
 
     try {
+        console.log(`checking ${link}`)
         await axios.get(link)
     } catch (e) {
         throw new ValidationError(`${link} is not reachable`)
