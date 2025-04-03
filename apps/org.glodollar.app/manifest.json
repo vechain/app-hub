@@ -1,0 +1,13 @@
+{
+  "name": "Glo Dollar App",
+  "href": "https://app.glodollar.org",
+  "desc": "Stablecoin that funds public goods",
+  "category": "defi",
+  "tags": [
+    "tokens",
+    "VIP-180",
+    "swap"
+  ],
+  "contracts": ["0x29c630cce4ddb23900f5fe66ab55e488c15b9f5e"],
+  "isVeWorldSupported": true
+}
