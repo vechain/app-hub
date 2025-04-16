@@ -8,5 +8,6 @@
     "repo": "https://github.com/dgutierrez1987/NFBCBeta",
     "contracts": [
     ],
-    "isVeWorldSupported": true
+    "isVeWorldSupported": true,
+    "veBetterDaoId": "0x74133534672eca50a67f8b20bf17dd731b70d83f0a12e3500fca0793fca51c7d"
 }
