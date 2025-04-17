@@ -8,5 +8,6 @@
     "lottery",
     "games"
   ],
-  "isVeWorldSupported": true
+  "isVeWorldSupported": true,
+  "veBetterDaoId":"0x7ea5dee0de30a9608eb245375581cb23ccf2dfe783d3a9f78ec63fe90c74cc43"
 }

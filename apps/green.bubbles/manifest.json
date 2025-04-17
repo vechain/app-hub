@@ -1,0 +1,12 @@
+{
+    "name":"Bubbles",
+    "href":"https://bubbles.green",
+    "desc":"Refill. Scan. Earn.\n\nBUBBLES tracks the use of refillable water bottles and rewards users for sustainable behavior. Each verified scan helps reduce CO₂ by replacing single-use plastic bottles.",
+    "category":"sustainability",
+    "tags":  [
+        "dapp",
+        "sustainability"
+        ],
+    "isVeWorldSupported":true,
+    "veBetterDaoId":"0x09dd9a839338c1bbe8d5383f121e0da8a770a8266bbf349360f5054422309a20"
+}

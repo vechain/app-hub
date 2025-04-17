@@ -11,5 +11,6 @@
     "utilities",
     "swap"
   ],
-  "isVeWorldSupported": true
+  "isVeWorldSupported": true,
+  "veBetterDaoId":"0x9498d135bc36858bb225f969b917b1b2014c3cfc55d0c687cd950c6af2ea1349"
 }
