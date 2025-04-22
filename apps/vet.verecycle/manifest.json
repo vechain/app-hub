@@ -1,0 +1,12 @@
+{
+    "name":"VeRecycle",
+    "href":"https://verecycle.vet",
+    "desc":"Turn recycling into rewards with VeRecycle! Simply return your bottles to deposit machines, take a pic of the receipt, and earn $B3TR! Join the VeRecycle community today and start making a positive impact on the planet, one bottle at a time! 🌍♻️💰",
+    "category":"sustainability",
+    "tags": [
+        "dapp",
+        "sustainability"
+        ],
+    "isVeWorldSupported":true,
+    "veBetterDaoId":"0xd787dce98b2c10026b15f317a2af07e5c8c67246cf11e24d53a444dec7fd1bba"
+}
