@@ -1,0 +1,15 @@
+{
+  "name": "WanBridge",
+  "href": "https://bridge.wanchain.org/",
+  "desc": "WanBridge is Wanchain’s decentralised, direct, non-custodial value-transfer bridge.",
+  "category": "utilities",
+  "tags": [
+    "cross-chain",
+    "swap",
+    "Wanchain",
+    "XFlows",
+    "VeChain",
+    "VET"
+  ],
+  "isVeWorldSupported": true
+}
