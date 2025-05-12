@@ -2,7 +2,7 @@
   "name": "WanBridge",
   "href": "https://bridge.wanchain.org/",
   "desc": "WanBridge is Wanchain’s decentralised, direct, non-custodial value-transfer bridge.",
-  "category": "utilities",
+  "category": "defi",
   "tags": [
     "cross-chain",
     "swap",
