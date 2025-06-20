@@ -1,7 +1,7 @@
 {
   "name": "VeChainStats",
   "href": "https://vechainstats.com/",
-  "desc": "Extensive VeChain mainnet statistics, charts, account explorer and more.",
+  "desc": "VeChain Stats is a Block Explorer and Analytics Platform for Vechain",
   "category": "utilities",
   "tags": [
     "accounts",
@@ -12,5 +12,5 @@
     "statistics",
     "tools"
   ],
-  "isVeWorldSupported": false
+  "isVeWorldSupported": true
 }
