@@ -1,12 +1,10 @@
 {
-    "name": "Gas Pump",
-    "href": "https://gaspump.cc",
-    "desc": "Out of gas? Swap tokens for VTHO with gas sponsored by us.",
-    "category": "defi",
-    "tags": ["vtho", "gas", "swap", "exchange"],
-    "repo": "https://github.com/Gas-Pump",
-    "contracts": [
-        "0xd800e6eAe6Aaa196c505e5DF068cbC012030771D"
-    ],
-    "isVeWorldSupported": true
+  "name": "Gas Pump",
+  "href": "https://gaspump.cc",
+  "desc": "Out of gas? Swap tokens for VTHO with gas sponsored by us.",
+  "category": "defi",
+  "tags": ["vtho", "gas", "swap", "exchange"],
+  "repo": "https://github.com/Gas-Pump",
+  "contracts": ["0xd800e6eae6aaa196c505e5df068cbc012030771d"],
+  "isVeWorldSupported": true
 }
