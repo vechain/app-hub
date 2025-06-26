@@ -1,0 +1,13 @@
+{
+  "name": "Juicy Finance",
+  "href": "https://app.juicyfinance.io",
+  "desc": "First lending and borrowing protocol on Vechain",
+  "category": "defi",
+  "tags": [
+    "lending",
+    "borrowing",
+    "leverage",
+    "finance"
+  ],
+  "isVeWorldSupported": true
+}
