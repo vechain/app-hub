@@ -10,12 +10,11 @@ are just guidelines, not rules. Use your best judgment and feel free to propose 
 ## Rules
 
 1. The app must run on Mainnet
-2. Support [Connex](https://connex.vecha.in/#/)
-3. Logo is required
-4. The id must be unique
-5. Short and simple descriptions
-6. Comply with directory & contents rules
-7. One application per submission
+2. Logo is required
+3. The id must be unique
+4. Short and simple descriptions
+5. Comply with directory & contents rules
+6. One application per submission
 
 ## Adding your app
 
@@ -89,6 +88,16 @@ Create a `manifest.json` file includes app details.
 - games
 - marketplaces
 - utilities
+
+### VeBetterDAO ID
+
+The `veBetterDaoId` – or App ID – represents the `keccak356` hash of the name of the app and can be found in the url of the governance app.
+
+For example in :
+https://governance.vebetterdao.org/apps/0xa7333a4a1dcce267ddc8375d4bf0442a63ec8da0afa17162981b8fdd1e0a13bc
+
+The App ID is:
+0xa7333a4a1dcce267ddc8375d4bf0442a63ec8da0afa17162981b8fdd1e0a13bc
 
 ### Import the Logo & Rules
 
