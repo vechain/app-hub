@@ -10,12 +10,11 @@ are just guidelines, not rules. Use your best judgment and feel free to propose 
 ## Rules
 
 1. The app must run on Mainnet
-2. Support [Connex](https://connex.vecha.in/#/)
-3. Logo is required
-4. The id must be unique
-5. Short and simple descriptions
-6. Comply with directory & contents rules
-7. One application per submission
+2. Logo is required
+3. The id must be unique
+4. Short and simple descriptions
+5. Comply with directory & contents rules
+6. One application per submission
 
 ## Adding your app
 
@@ -89,6 +88,30 @@ Create a `manifest.json` file includes app details.
 - games
 - marketplaces
 - utilities
+
+### VeBetterDAO ID
+
+The `veBetterDaoId` is the `keccak356` hash of the name of the app. You can generate it with the following TypeScript snippet using `@vechain/sdk-core`
+
+```typescript
+import { Keccak256, Txt } from '@vechain/sdk-core'
+
+const APP_NAME = '<your-app-name>'
+
+const bytes = Txt.of(APP_NAME).bytes
+const hash = Keccak256.of(bytes)
+
+console.log(hash.toString())
+```
+
+or using Solidity
+
+```solidity
+function hashAppName(string memory appName) public pure returns (bytes32) {
+    return keccak256(abi.encodePacked(appName));
+}
+```
+
 
 ### Import the Logo & Rules
 
