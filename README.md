@@ -91,27 +91,13 @@ Create a `manifest.json` file includes app details.
 
 ### VeBetterDAO ID
 
-The `veBetterDaoId` is the `keccak356` hash of the name of the app. You can generate it with the following TypeScript snippet using `@vechain/sdk-core`
+The `veBetterDaoId` – or App ID – represents the `keccak356` hash of the name of the app and can be found in the url of the governance app.
 
-```typescript
-import { Keccak256, Txt } from '@vechain/sdk-core'
+For example in :
+https://governance.vebetterdao.org/apps/0xa7333a4a1dcce267ddc8375d4bf0442a63ec8da0afa17162981b8fdd1e0a13bc
 
-const APP_NAME = '<your-app-name>'
-
-const bytes = Txt.of(APP_NAME).bytes
-const hash = Keccak256.of(bytes)
-
-console.log(hash.toString())
-```
-
-or using Solidity
-
-```solidity
-function hashAppName(string memory appName) public pure returns (bytes32) {
-    return keccak256(abi.encodePacked(appName));
-}
-```
-
+The App ID is:
+0xa7333a4a1dcce267ddc8375d4bf0442a63ec8da0afa17162981b8fdd1e0a13bc
 
 ### Import the Logo & Rules
 
