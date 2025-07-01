@@ -6,7 +6,7 @@
   "tags": ["vtho", "vet", "stargate", "delegation", "nft", "staking"],
   "contracts": [
     "0x1856c533ac2d94340aaa8544d35a5c1d4a21dee7",
-    "0xB0EF9D89C6b49CbA6BBF86Bf2FDf0Eee4968c6AB",
+    "0xb0ef9d89c6b49cba6bbf86bf2fdf0eee4968c6ab",
     "0x4cb1c9ef05b529c093371264fab2c93cc6cddb0e"
   ],
   "isVeWorldSupported": true
