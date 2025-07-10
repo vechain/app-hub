@@ -9,5 +9,6 @@
     "leverage",
     "finance"
   ],
-  "isVeWorldSupported": true
+  "isVeWorldSupported": true,
+  "veBetterDaoId": "0xd66717ae318034b4b6a424acbec8d0cb98fc01e75a10500add71db045f28adbf"
 }
