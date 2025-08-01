@@ -1,5 +1,5 @@
 {
-  "name": "WoV marketplace NFT",
+  "name": "WoV Marketplace",
   "href": "https://worldofv.art/",
   "desc": "The first gas-free, green NFT platform built on the VeChain blockchain",
   "category": "marketplaces",
@@ -9,7 +9,8 @@
     "nft",
     "Digital Art",
     "Phygital",
-    "Artists"
+    "Artists",
+    "sustainability"
   ],
   "isVeWorldSupported": true
 }
