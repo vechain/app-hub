@@ -1,0 +1,12 @@
+{
+    "name":"Nubila",
+    "href":"https://nubila.ai/vbd",
+    "desc":"Nubila is an innovative DePIN network that helps users earn rewards by collecting real-time hyperlocal weather data through decentralized weather devices and verifying the authenticity and validity of the data on the network.",
+    "category":"defi",
+    "tags": [
+        "dapp",
+        "sustainability"
+    ],
+    "isVeWorldSupported":true,
+    "veBetterDaoId":"0x467cc7d7a28d0a893e0034295d3a4c01b533c1fae631fabb5645b0ca322eaab6"
+}
