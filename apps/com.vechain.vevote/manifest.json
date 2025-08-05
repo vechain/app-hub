@@ -4,7 +4,8 @@
     "desc": "A decentralized voting platform for the VeChain ecosystem.",
     "category": "utilities",
     "tags": [
-        "voting"
+        "voting",
+        "governance"
     ],
     "repo": "https://github.com/vechain/vevote-contracts",
     "contracts": [
