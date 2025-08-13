@@ -120,7 +120,6 @@ const checkLink = async (appDir: string) => {
             }
         })
     } catch (e) {
-        console.log('LLEGA', e)
         throw new ValidationError(`${link} is not reachable`)
     }
 }
