@@ -114,6 +114,7 @@ const checkLink = async (appDir: string) => {
     try {
         await axios.get(link)
     } catch (e) {
+        console.log('LLEGA', e)
         throw new ValidationError(`${link} is not reachable`)
     }
 }
