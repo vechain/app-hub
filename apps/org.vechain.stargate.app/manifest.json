@@ -1,6 +1,6 @@
 {
   "name": "StarGate",
-  "href": "https://app.stargate.vechain.org/",
+  "href": "https://app.stargate.vechain.org",
   "desc": "StarGate is VeChain’s on-chain staking platform where users lock VET to receive NFT-backed nodes that earn VTHO rewards. It combines simplicity, ownership, and utility to bring decentralized infrastructure to life.", 
   "category": "utilities",
   "tags": ["vtho", "vet", "stargate", "delegation", "nft", "staking"],
