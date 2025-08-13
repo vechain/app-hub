@@ -1,11 +1,11 @@
-import * as fs from 'fs'
-import { exec } from 'child_process'
-import { EOL } from 'os'
-import { promisify } from 'util'
-import * as path from 'path'
-import imageSize from 'image-size'
 import * as github from '@actions/github'
 import axios from 'axios'
+import { exec } from 'child_process'
+import * as fs from 'fs'
+import imageSize from 'image-size'
+import { EOL } from 'os'
+import * as path from 'path'
+import { promisify } from 'util'
 
 const bundleName = /^(([a-z0-9\-]+\.)+)[a-z0-9\-]+$/
 const url = /^(http(s?):\/\/)([a-zA-Z0-9.-]+)(:[0-9]{1,4})?/
@@ -112,7 +112,13 @@ const checkLink = async (appDir: string) => {
     const link = manifest.href
 
     try {
-        await axios.get(link)
+        await axios.head(link, {
+            timeout: 5000, // 5 seconds should be enough for link validation
+            validateStatus: (status) => status < 500, // Only 5xx since the others imply the app is reachable
+            headers: {
+                'Accept': '*/*'
+            }
+        })
     } catch (e) {
         throw new ValidationError(`${link} is not reachable`)
     }
