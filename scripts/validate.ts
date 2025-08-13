@@ -132,9 +132,9 @@ if (github.context.eventName === 'pull_request') {
 
         const apps: string[] = []
         for (const fileName of list) {
-            // if (!fileName.startsWith('apps/')) {
-            //     throw new ValidationError('please do not modify other files while submitting an app')
-            // }
+            if (!fileName.startsWith('apps/')) {
+                throw new ValidationError('please do not modify other files while submitting an app')
+            }
 
             const app = fileName.split('/')[1]
             if (!apps.includes(app)) {
@@ -142,9 +142,9 @@ if (github.context.eventName === 'pull_request') {
             }
         }
 
-        // if (apps.length != 1) {
-        //     throw new ValidationError('please submit only one app at a time')
-        // }
+        if (apps.length != 1) {
+            throw new ValidationError('please submit only one app at a time')
+        }
 
         await checkAPP(apps[0])
         await checkLink(apps[0])
