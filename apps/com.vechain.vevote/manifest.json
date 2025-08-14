@@ -1,15 +1,16 @@
 {
     "name": "VeVote",
     "href": "https://vevote.vechain.org/",
-    "desc": "VeVote is VeChain's official governance platform, where Validators and Node holders vote on proposals to shape the VeChainThor blockchain and ecosystem.",
+    "desc": "A decentralized voting platform for the VeChain ecosystem.",
     "category": "utilities",
     "tags": [
         "voting",
         "governance"
     ],
-    "repo": "https://github.com/vechain/vevote",
+    "repo": "https://github.com/vechain/vevote-contracts",
     "contracts": [
-        "0x7d812e8e544bb0c7898ea656b70173e7ef426b4c"
+        "0xa6416a72f816d3a69f33d0814700545c8e3fe4be",
+        "0x7e54f0790153647ec0651c35ced28171adb5d44a"
     ],
     "isVeWorldSupported": true
 }
