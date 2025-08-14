@@ -141,12 +141,25 @@ if (github.context.eventName === 'pull_request') {
             }
         }
 
-        if (apps.length != 1) {
-            throw new ValidationError('please submit only one app at a time')
+        let appsToDelete: string[] = []
+        
+        for (const appName of apps) {
+            const appPath = path.join(__dirname, '../apps', appName)
+            if (!fs.existsSync(appPath)) {
+                // app being deleted
+                appsToDelete.push(appName)
+                console.log(`App directory '${appName}' not found - assuming app deletion`)
+            } else {
+                // app being added or modified
+                await checkAPP(appName)
+                await checkLink(appName)
+            }
         }
-
-        await checkAPP(apps[0])
-        await checkLink(apps[0])
+        
+        // only one app can be deleted at a time
+        if (appsToDelete.length > 1) {
+            throw new ValidationError(`cannot delete multiple apps at once: ${appsToDelete.join(', ')}`)
+        }
     })().catch(async (e) => {
         console.log(colors.red('Validation failed: ' + (e as Error).message))
 
