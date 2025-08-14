@@ -1,0 +1,8 @@
+{
+  "name": "Non-Fungible Book Club Marketplace",
+  "href": "https://nfbclub.marketplace.vechain.org/",
+  "desc": "The NFBC marketplace for trading and collecting audiobooks you truly own.", 
+  "category": "marketplaces",
+  "tags": ["nft"],
+  "isVeWorldSupported": true
+} 
