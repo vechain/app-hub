@@ -12,5 +12,5 @@
         "0x7d812e8e544bb0c7898ea656b70173e7ef426b4c"
     ],
     "isVeWorldSupported": true,
-    "iconUrl": "https://vechain.github.io/app-hub/imgs/com.vechain.vevote.png?cache-bust=1755267383"
+    "iconUri": "https://vechain.github.io/app-hub/imgs/com.vechain.vevote.png?cache-bust=1755267383"
 }
