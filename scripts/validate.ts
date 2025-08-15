@@ -145,8 +145,15 @@ if (github.context.eventName === 'pull_request') {
             throw new ValidationError('please submit only one app at a time')
         }
 
-        await checkAPP(apps[0])
-        await checkLink(apps[0])
+        const appPath = path.join(__dirname, '../apps', apps[0])
+        if (!fs.existsSync(appPath)) {
+            // app being deleted
+            console.log(`App directory '${apps[0]}' not found - assuming app deletion`)
+        } else {
+            // app being added or modified
+            await checkAPP(apps[0])
+            await checkLink(apps[0])
+        }
     })().catch(async (e) => {
         console.log(colors.red('Validation failed: ' + (e as Error).message))
 
