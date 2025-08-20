@@ -1,7 +1,17 @@
-  {
-        "name": "WorldOfV NFT Marketplace",
-        "href": "https://worldofv.art/",
-        "desc": "The first gas-free, green NFT platform built on the VeChain blockchain",
-        "category": "marketplaces",
-        "tags": ["WOV", "World Of V NFTs'", "NFTs", "Digital Art", "Phygital", "Artists"]
-    }
+{
+  "name": "WoV Marketplace",
+  "href": "https://worldofv.art/",
+  "desc": "The first gas-free, green NFT platform built on the VeChain blockchain",
+  "category": "marketplaces",
+  "tags": [
+    "WOV",
+    "World Of V NFTs'",
+    "nft",
+    "Digital Art",
+    "Phygital",
+    "Artists",
+    "sustainability"
+  ],
+  "isVeWorldSupported": true,
+  "veBetterDaoId":"0x52239ee9403d804413a5dff852c4f6d6935ed8c0ee76634e9e54c5dcd46d8e47"
+}

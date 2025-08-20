@@ -1,0 +1,13 @@
+{
+  "name": "VeLottery",
+  "href": "https://velottery.vet/",
+  "desc": "Win by Going Green! Turn your sustainable actions into lottery tickets—1 action = 1 ticket. 100% digital, zero paper waste, eco-powered blockchain. Test your luck while making a positive impact!",
+  "category": "games",
+  "tags": [
+    "vebetterdao",
+    "lottery",
+    "games"
+  ],
+  "isVeWorldSupported": true,
+  "veBetterDaoId":"0x7ea5dee0de30a9608eb245375581cb23ccf2dfe783d3a9f78ec63fe90c74cc43"
+}

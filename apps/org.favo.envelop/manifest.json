@@ -1,7 +1,13 @@
 {
-  "name" : "Message Exchange",
-  "href" : "https://envelop.favo.org/" ,
-  "desc" : "Publish Messages on the Blockchain",
+  "name": "Message Exchange",
+  "href": "https://envelop.favo.org/",
+  "desc": "Publish Messages on the Blockchain",
   "category": "utilities",
-  "tags" : ["nft","vip181","text","communication"]
+  "tags": [
+    "nft",
+    "vip181",
+    "text",
+    "communication"
+  ],
+  "isVeWorldSupported": false
 }

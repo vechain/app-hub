@@ -1,0 +1,9 @@
+{
+  "name": "Green Ambassador Challenge",
+  "href": "https://greenambassadorchallenge.com/",
+  "desc": "The Green Ambassador Challenge engages users in a gamified learning adventure around sustainability, offering rewards for completing learning challenges.",
+  "category": "games",
+  "tags": ["dapp", "sustainability"],
+  "isVeWorldSupported": true,
+  "veBetterDaoId": "0x821a9ae30590c7c11e0ebc03b27902e8cae0f320ad27b0f5bde9f100eebcb5a7"
+}

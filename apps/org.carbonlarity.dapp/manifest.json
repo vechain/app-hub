@@ -1,0 +1,12 @@
+{
+    "name":"Carbonlarity",
+    "href":"https://dapp.carbonlarity.org",
+    "desc":"Carbonlarity is a ReFi and DePin platform addressing carbon traceability in different scenarios. We combine blockchain technology with advanced IoT solutions to promote sustainability through real-time electricity monitoring and control.",
+    "category":"defi",
+    "tags":  [
+        "dapp",
+        "sustainability"
+        ],
+    "isVeWorldSupported":true,
+    "veBetterDaoId":"0xca0b325c7d08aa29642c6a82e490c99bac53e5e53dce402faa1ec12b7e382409"
+}
