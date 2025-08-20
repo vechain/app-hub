@@ -1,0 +1,21 @@
+{
+  "name": "BetterSwap",
+  "href": "https://www.betterswap.io",
+  "desc": "Earn By Empowering Sustainable DeFi. Trade Smart. Trade Better.",
+  "category": "defi",
+  "tags": [
+    "dapp",
+    "dex",
+    "aggregator",
+    "finance",
+    "farming",
+    "exchange",
+    "staking",
+    "pool2earn",
+    "swap",
+    "sustainability"
+  ],
+  "repo": "https://github.com/databeforedishonor/betterSwap",
+  "isVeWorldSupported": true,
+  "veBetterDaoId": "0x2703ee39ee00a34177202a3fd1fd031bb37ab1eddd70fa1ed73ad6eee86c6ee0"
+}

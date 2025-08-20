@@ -3,5 +3,13 @@
     "href": "https://vesea.io/community/vegnomes",
     "desc": "VeGnomes - 3,333 enchanted NFT artworks depicting mystical creatures rich in culture and folklore!",
     "category": "collectibles",
-    "tags": ["NFT","VeGnomes","Gnomes","VIP-181","Collectibles","VNFT"]
-} 
+    "tags": [
+        "NFT",
+        "VeGnomes",
+        "Gnomes",
+        "VIP-181",
+        "Collectibles",
+        "VNFT"
+    ],
+    "isVeWorldSupported": false
+}

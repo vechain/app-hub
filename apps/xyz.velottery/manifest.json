@@ -1,0 +1,13 @@
+{
+    "name": "VeLottery",
+    "href": "https://www.velottery.xyz/",
+    "desc": "Decentralised community lottery built on VeChain. 80% will go to the winner 20% will be used to burn $WoV.",
+    "category": "games",
+    "tags": [
+        "VeLottery",
+        "WoV",
+        "Lottery",
+        "Prizes"
+    ],
+    "isVeWorldSupported": false
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Restify",
+  "href": "https://restifyapp.org/",
+  "desc": "A wellness app that rewards you with B3TR for staying off your phone. Start a session, stay focused, and earn. It’s digital detox made simple — helping you reclaim time, build better habits, and get real value for being present.",
+  "category": "games",
+  "tags": ["dApp", "wellness", "focus", "token", "sustainability"],
+  "isVeWorldSupported": true,
+  "veBetterDaoId": "0x4f3d78257b1f3d8187d0518333d84f41269d8b2b31b476a417c4f4a9092a454c"
+}

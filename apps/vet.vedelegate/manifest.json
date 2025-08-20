@@ -1,0 +1,9 @@
+{
+  "name": "veDelegate.vet",
+  "href": "https://vedelegate.vet",
+  "desc": "Delegate your Better-Tokens and automate your voting to ensure you never miss a reward.",
+  "category": "defi",
+  "tags": ["dapp", "sustainability"],
+  "isVeWorldSupported": true,
+  "veBetterDaoId": "0x9bc95bbe51b41d526e45466b32a95c2f170a79e74fe31a5782762f7a545e567a"
+}

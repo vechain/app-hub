@@ -3,5 +3,12 @@
 	"href": "https://vesea.io/community/victs",
 	"desc": "5000 inmates granted early release on to the VeChainThor blockchain.",
 	"category": "collectibles",
-	"tags": ["NFT","victs","VIP-181","Collectibles","VNFT"]
+	"tags": [
+		"NFT",
+		"victs",
+		"VIP-181",
+		"Collectibles",
+		"VNFT"
+	],
+	"isVeWorldSupported": false
 }

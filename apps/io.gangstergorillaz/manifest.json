@@ -3,5 +3,13 @@
   "href": "https://gangstergorillaz.io/",
   "desc": "Gangster Gorillaz NFT. Not afraid to get their hands dirty. 5000 Genesis Gangster Gorillaz Coming to take VeFam on a journey through BlockChain Land. To eventually land in Our 'Banana-Verse' All together.",
   "category": "collectibles",
-  "tags": ["VIP-181", "VNFT", "collectable", "Gorillaz", "Crosschain","Metaverse"]
+  "tags": [
+    "VIP-181",
+    "VNFT",
+    "collectable",
+    "Gorillaz",
+    "Crosschain",
+    "Metaverse"
+  ],
+  "isVeWorldSupported": false
 }

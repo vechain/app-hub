@@ -1,0 +1,12 @@
+{
+    "name": "ecobag",
+    "href": "https://ecobag.solutions/",
+    "desc": "EcoBag.vet is a community-powered DApp that rewards eco-conscious shoppers with B3TR tokens for making sustainable choices. Simply upload a picture of your reusable bag and receipt after shopping to earn rewards while reducing plastic waste. Built on VeChain and powered by VeBetterDAO, EcoBag.vet tracks your positive impact and offers real-world benefits, including redeemable NFTs for EcoBags. Join the movement toward a cleaner, greener future-one bag at a time.",
+    "category": "defi",
+    "tags": [
+        "dapp",
+        "sustainability"
+    ],
+    "isVeWorldSupported": true,
+    "veBetterDaoId": "0x5f31fe4cd03cd5833e31d58cdfb808b7d53bf5618bd766eeaf8a6eab0f7d53ba"
+}

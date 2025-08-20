@@ -1,0 +1,12 @@
+{
+    "name": "vet.domains",
+    "href": "https://vet.domains/",
+    "desc": "Say hello to human friendly names on Vechain.",
+    "category": "utilities",
+    "tags": [
+        "name",
+        "domain",
+        "service"
+    ],
+    "isVeWorldSupported": true
+}

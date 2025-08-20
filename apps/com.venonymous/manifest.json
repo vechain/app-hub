@@ -3,5 +3,11 @@
     "href": "https://venonymous.com/",
     "desc": "We Are Venonymous! We like to call ourselves Pioneers of the new World.",
     "category": "collectibles",
-    "tags": ["VIP181","NFT","Venonymous","hacker"]
+    "tags": [
+        "VIP181",
+        "NFT",
+        "Venonymous",
+        "hacker"
+    ],
+    "isVeWorldSupported": false
 }

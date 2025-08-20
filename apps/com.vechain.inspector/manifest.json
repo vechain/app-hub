@@ -1,8 +1,13 @@
 {
-    "name" : "Inspector",
-    "href" : "https://inspector.vecha.in" ,
-    "desc" :"A tool that allows you to deploy and interact with the contract",
+    "name": "Inspector",
+    "href": "https://inspector.vecha.in",
+    "desc": "A tool that allows you to deploy and interact with the contract",
     "category": "utilities",
-    "tags" : ["contract","deploy","tool"],
-    "repo": "https://github.com/vechain/inspector-app"
+    "tags": [
+        "contract",
+        "deploy",
+        "tool"
+    ],
+    "repo": "https://github.com/vechain/inspector-app",
+    "isVeWorldSupported": true
 }
