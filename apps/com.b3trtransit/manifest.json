@@ -1,0 +1,9 @@
+{
+    "name": "B3tr Transit",
+    "href": "https://b3trtransit.com",
+    "desc": "B3TR Transit is a \"Ride-to-Earn\" dApp designed to address urban pollution and congestion by incentivizing public transportation usage. Powered by VeChain and integrated with VeBetterDAO (VBD), B3TR Transit rewards users with $B3TR tokens for every verifiable eco-commute. By gamifying sustainability and making environmental action financially rewarding, B3TR Transit aims to transform daily travel habits and foster a greener future.",
+    "category": "utilities",
+    "tags": ["sustainability","eco-ride", "ride-to-earn"],
+    "isVeWorldSupported": true,
+    "veBetterDaoId": "0xf9f69150ff561161465395d5581cf41173877f057cc4323a074e9638e077f37e"
+}
