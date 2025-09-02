@@ -1,0 +1,9 @@
+{
+    "name": "SnapBox",
+    "href": "https://snapbox.online",
+    "desc": "SnapBox is a community-driven platform where users share photos of their portable meals stored in reusable containers. Whether it's a lunch packed for work, school, or outdoor adventures, SnapBox encourages users to snap and upload their eco-friendly food moments. The app promotes healthy eating habits and sustainability, aiming to help reduce carbon emissions by encouraging reusable packaging and mindful eating. Each snap, submitted once every 24 hours, is analyzed by AI and rewarded with a certain amount of B3TR tokens.",
+    "category": "lifestyle",
+    "tags": [ "sustainability", "lifestyle", "food", "reusable-containers"],
+    "isVeWorldSupported": true,
+    "veBetterDaoId": "0x991c0c9b323be86bfcabba249fddf32a7f2a04baeba50e0690ec8362a7b68504"
+}
