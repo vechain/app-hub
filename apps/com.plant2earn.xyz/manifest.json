@@ -2,8 +2,8 @@
     "name": "Plant To Earn",
     "href": "https://plant2earn.xyz",
     "desc": "Take a photo while watering your houseplants or garden, let our AI analyze it, and earn B3TR tokens! Give life to plants, give back to nature. Grow, earn, make a difference.",
-    "category": "lifestyle",
-    "tags": ["plants","lifestyle", "water-to-earn"],
+    "category": "defi",
+    "tags": ["plants","lifestyle", "water-to-earn", "sustainability"],
     "isVeWorldSupported": true,
     "veBetterDaoId": "0x903311aa8a76fae3d4b3a405f5d4eddf2e2a807d4f8f1eb607351aef1ac0776a"
 }
