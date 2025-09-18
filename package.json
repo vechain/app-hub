@@ -31,7 +31,7 @@
   },
   "dependencies": {
     "@actions/github": "^5.1.1",
-    "axios": "^1.6.2",
+    "axios": "^1.12.0",
     "image-size": "^1.0.0",
     "pngquant": "^2.0.1"
   }
