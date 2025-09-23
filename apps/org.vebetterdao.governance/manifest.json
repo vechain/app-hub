@@ -8,5 +8,6 @@
         "governance",
         "sustainability"
     ],
-    "isVeWorldSupported": true
+    "isVeWorldSupported": true,
+    "iconUri": "https://vechain.github.io/app-hub/imgs/org.vebetterdao.governance.png?cache-bust=1755267383"
 }
