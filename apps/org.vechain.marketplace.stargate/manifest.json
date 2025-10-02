@@ -1,0 +1,8 @@
+{
+  "name": "StarGate Marketplace",
+  "href": "https://stargate.marketplace.vechain.org/",
+  "desc": "Discover and trade Stargate Node NFTs on the secondary market. Buy, sell, and collect VeChain-powered staking nodes backed by staked VET and VTHO rewards.", 
+  "category": "marketplaces",
+  "tags": ["vtho", "vet", "stargate", "delegation", "nft", "staking"],
+  "isVeWorldSupported": true
+} 

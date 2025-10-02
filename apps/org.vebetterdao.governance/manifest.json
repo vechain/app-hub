@@ -1,5 +1,5 @@
 {
-    "name": "VeBetterDAO governance app",
+    "name": "VeBetterDAO",
     "href": "https://governance.vebetterdao.org",
     "desc": "Vote for your favourite sustainability dApps in VeBetterDAO’s governance.",
     "category": "defi",
@@ -8,5 +8,6 @@
         "governance",
         "sustainability"
     ],
-    "isVeWorldSupported": true
+    "isVeWorldSupported": true,
+    "iconUri": "https://vechain.github.io/app-hub/imgs/org.vebetterdao.governance.png?cache-bust=1755267383"
 }
