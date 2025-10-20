@@ -91,7 +91,7 @@ const getChangedFiles = async (): Promise<string[]> => {
     return new Promise((resolve, reject) => {
         const baseRef = process.env.GITHUB_BASE_REF as string
 
-        exec(` git diff --name-only $(git merge-base HEAD origin/${baseRef})`, (err, stdout, stderr) => {
+        exec(`git diff --name-only $(git merge-base HEAD origin/${baseRef})`, (err, stdout, stderr) => {
             if (err)
                 return reject(err)
             if (stderr)
