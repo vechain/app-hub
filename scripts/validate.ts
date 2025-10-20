@@ -91,7 +91,7 @@ const getChangedFiles = async (): Promise<string[]> => {
     return new Promise((resolve, reject) => {
         const baseRef = process.env.GITHUB_BASE_REF as string
 
-        exec(`git diff --name-only origin/${baseRef}`, (err, stdout, stderr) => {
+        exec(`git diff --name-only $(git merge-base HEAD origin/${baseRef})`, (err, stdout, stderr) => {
             if (err)
                 return reject(err)
             if (stderr)
@@ -112,15 +112,24 @@ const checkLink = async (appDir: string) => {
     const link = manifest.href
 
     try {
-        await axios.head(link, {
-            timeout: 5000, // 5 seconds should be enough for link validation
-            validateStatus: (status) => status < 500, // Only 5xx since the others imply the app is reachable
+        const response = await axios.request({
+            url: link,
+            method: 'get',
+            timeout: 5000,
             headers: {
-                'Accept': '*/*'
-            }
+                'User-Agent':
+                    'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0 Safari/537.36',
+                'Accept': '*/*',
+            },
+            responseType: 'stream',
+            validateStatus: (status) => status >= 200 && status < 500,
         })
+
+        if (response.status >= 500) {
+            throw new Error(`Server returned ${response.status}`)
+        }
     } catch (e) {
-        throw new ValidationError(`${link} is not reachable`)
+        throw new ValidationError(`${link} is not reachable: ${(e as Error).message}`)
     }
 }
 
