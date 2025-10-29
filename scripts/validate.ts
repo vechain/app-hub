@@ -165,17 +165,27 @@ if (github.context.eventName === 'pull_request') {
         }
     })().catch(async (e) => {
         console.log(colors.red('Validation failed: ' + (e as Error).message))
-
         if (e instanceof ValidationError) {
-            const token = process.env.GITHUB_TOKEN as string
-            const octokit = github.getOctokit(token)
+            const token = process.env.GITHUB_TOKEN as string | undefined
+            if (!token) {
+                console.log(colors.red('GITHUB_TOKEN not defined; cannot comment on the PR.'))
+            } else {
+                const octokit = github.getOctokit(token)
+                const owner = github.context.repo.owner
+                const repo = github.context.repo.repo
+                const issueNumber = (github.context.issue?.number ?? github.context.payload.pull_request?.number) as number | undefined
 
-            await octokit.rest.issues.createComment({
-                owner: github.context.issue.owner,
-                repo: github.context.issue.repo,
-                issue_number: github.context.issue.number,
-                body: ':warning: ' + capFirstLetter((e as Error).message) || 'Validation failed, please check workflow run logs.'
-            })
+                if (!issueNumber) {
+                    console.log(colors.red('Pull request number not found in context; cannot comment.'))
+                } else {
+                    await octokit.rest.issues.createComment({
+                        owner,
+                        repo,
+                        issue_number: issueNumber,
+                        body: ':warning: ' + (capFirstLetter((e as Error).message) || 'Validation failed, please check workflow run logs.')
+                    })
+                }
+            }
         }
         process.exit(1)
     }).then(() => {
