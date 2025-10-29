@@ -170,6 +170,9 @@ if (github.context.eventName === 'pull_request') {
             const token = process.env.GITHUB_TOKEN as string
             const octokit = github.getOctokit(token)
 
+            const { data: auth } = await octokit.rest.users.getAuthenticated()
+            console.log(`Authenticated as: ${auth.login}`)
+
             await octokit.rest.issues.createComment({
                 owner: github.context.issue.owner,
                 repo: github.context.issue.repo,
