@@ -1,0 +1,14 @@
+{
+    "name": "TestWorld",
+    "href": "www.Test.com",
+    "desc": "My description",
+    "category": "nft",
+    "tags": [
+        "DeFi",
+        "tokens",
+        "ICO",
+        "Memecoin",
+        "NFT"
+    ],
+    "isVeWorldSupported": true
+}
