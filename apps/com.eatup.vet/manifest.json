@@ -1,10 +1,11 @@
 {
     "name": "Eat Up",
     "href": "https://h5.eatup.vet/",
-    "desc": "Eat Up campaign -A Food WasteReduction lnitiative.We cordially invite you to join the Eat UpCampaign, an innovative program that linksindividual eco-friendly actions with quantifiablecarbon emission reduction incentives, all aimed atbuilding a green and sustainable future.",
-    "category": "food&drinks",
+    "desc": "Eat Up is an environmental initiative that utilizes a photo-based check-in mechanism to reduce food waste. Data indicates that reducing 1kg of food waste can decrease approximately 2.5kg of carbon dioxide emissions. This dapp is designed for users to photograph and upload their empty plates after meals. And after the upload is verified by AI, users receive certain B3TR incentives. The reward distribution rules are further integrated with progression-based game-like mechanics, thereby enhancing the user check-in experience and promoting sustained participation in the campaign.",
+    "category": "defi",
     "tags": [
-        "dapp"
+        "dapp",
+        "sustainability"
     ],
     "isVeWorldSupported": true,
     "veBetterDaoId": "0x48da6c6f7c8746eaed3cf9068f4e56821a0e1fff9e96c0d4de52893ce4c7b47d"
