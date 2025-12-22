@@ -1,12 +1,9 @@
 {
-    "name": "GronCard",
-    "href": "https://www.groncard.com",
-    "desc": "GronCard is an innovative platform that transforms your B3TR into practical tools for everyday life.\nThanks to this service, you can easily convert your B3TR into discount vouchers to purchase goods and services.\nWe make your B3TR an integral part of daily life, rewarding sustainable behaviors and breaking down technological barriers.\nGronCard positions itself as a unique solution to bridge the gap between cryptocurrencies and daily needs. With a focus on simplicity, sustainability and tangible value, it aims to create an accessible, secure and future-oriented financial system.",
-    "category": "defi",
-    "tags": [
-        "dapp",
-        "sustainability"
-    ],
-    "isVeWorldSupported": true,
-    "veBetterDaoId": "0xbf700a9877e9733e70c03488e6b9e9560c4f6f68c64db5662ecb4ed6c960bbfe"
+  "name": "GronCard",
+  "href": "https://www.groncard.com",
+  "desc": "GronCard is the easiest way to use your B3TR in everyday life. In just a few clicks, you can turn your tokens into gift cards for your favorite brands like Amazon, Netflix, and Spotify — making crypto simple, rewarding, and part of your daily routine.",
+  "category": "defi",
+  "tags": ["dapp", "sustainability"],
+  "isVeWorldSupported": true,
+  "veBetterDaoId": "0xbf700a9877e9733e70c03488e6b9e9560c4f6f68c64db5662ecb4ed6c960bbfe"
 }

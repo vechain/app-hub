@@ -1,11 +1,11 @@
-import * as fs from 'fs'
-import { exec } from 'child_process'
-import { EOL } from 'os'
-import { promisify } from 'util'
-import * as path from 'path'
-import imageSize from 'image-size'
 import * as github from '@actions/github'
 import axios from 'axios'
+import { exec } from 'child_process'
+import * as fs from 'fs'
+import imageSize from 'image-size'
+import { EOL } from 'os'
+import * as path from 'path'
+import { promisify } from 'util'
 
 const bundleName = /^(([a-z0-9\-]+\.)+)[a-z0-9\-]+$/
 const url = /^(http(s?):\/\/)([a-zA-Z0-9.-]+)(:[0-9]{1,4})?/
@@ -91,7 +91,7 @@ const getChangedFiles = async (): Promise<string[]> => {
     return new Promise((resolve, reject) => {
         const baseRef = process.env.GITHUB_BASE_REF as string
 
-        exec(`git diff --name-only origin/${baseRef}`, (err, stdout, stderr) => {
+        exec(`git diff --name-only $(git merge-base HEAD origin/${baseRef})`, (err, stdout, stderr) => {
             if (err)
                 return reject(err)
             if (stderr)
@@ -112,9 +112,24 @@ const checkLink = async (appDir: string) => {
     const link = manifest.href
 
     try {
-        await axios.get(link)
+        const response = await axios.request({
+            url: link,
+            method: 'get',
+            timeout: 5000,
+            headers: {
+                'User-Agent':
+                    'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0 Safari/537.36',
+                'Accept': '*/*',
+            },
+            responseType: 'stream',
+            validateStatus: (status) => status >= 200 && status < 500,
+        })
+
+        if (response.status >= 500) {
+            throw new Error(`Server returned ${response.status}`)
+        }
     } catch (e) {
-        throw new ValidationError(`${link} is not reachable`)
+        throw new ValidationError(`${link} is not reachable: ${(e as Error).message}`)
     }
 }
 
@@ -139,8 +154,15 @@ if (github.context.eventName === 'pull_request') {
             throw new ValidationError('please submit only one app at a time')
         }
 
-        await checkAPP(apps[0])
-        await checkLink(apps[0])
+        const appPath = path.join(__dirname, '../apps', apps[0])
+        if (!fs.existsSync(appPath)) {
+            // app being deleted
+            console.log(`App directory '${apps[0]}' not found - assuming app deletion`)
+        } else {
+            // app being added or modified
+            await checkAPP(apps[0])
+            await checkLink(apps[0])
+        }
     })().catch(async (e) => {
         console.log(colors.red('Validation failed: ' + (e as Error).message))
 
