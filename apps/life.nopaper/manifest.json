@@ -1,0 +1,12 @@
+{
+  "name": "NoPaper",
+  "href": "https://nopaper.life",
+  "desc": "Paperless with NoPaper.",
+  "category": "defi",
+  "tags": [
+    "dapp",
+    "sustainability"
+  ],
+  "isVeWorldSupported": true,
+  "veBetterDaoId": "0xe682efaffb7c642f66a2ce77886c183aa5eeb9b73f7d877de7054efff1972196"
+}
