@@ -1,7 +1,7 @@
 {
   "name": "VeChain Kit",
   "href": "https://vechainkit.vechain.org/",
-  "desc": "An all-in-one library for building VeChain applications.",
+  "desc": "VeChain Kit is a toolkit for building applications on VeChain, supporting wallet integration, developer hooks, pre-built UI components, and more.",
   "category": "utilities",
   "tags": [
     "wallet",
