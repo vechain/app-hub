@@ -1,0 +1,17 @@
+{
+  "name": "Arbor",
+  "href": "https://thearborapp.org/",
+  "desc": "Planting for a better future.",
+  "category": "utilities",
+  "tags": [
+      "Arbor",
+      "dapp",
+      "sustainability",
+      "vebetter",
+      "vechain",
+      "sassafras",
+      "sass"
+  ],
+  "isVeWorldSupported": true,
+  "veBetterDaoId": "0xa086ca5512f6e7a5f7793cf312731afe4cbef84299e3dd77086301152f8edce5"
+}
