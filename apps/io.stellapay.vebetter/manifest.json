@@ -1,0 +1,13 @@
+{
+  "name": "Stella Pay",
+  "href": "https://vebetter.stellapay.io/",
+  "desc": "Unlock everyday purchases backed by your VeChain assets.",
+  "category": "utilities",
+  "tags": [
+    "dapp",
+    "crypto payments",
+    "crypto card"
+  ],
+ 
+  "isVeWorldSupported": true
+}

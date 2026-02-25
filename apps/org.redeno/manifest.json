@@ -1,0 +1,15 @@
+{
+  "name": "Redeno",
+  "href": "https://redeno.org/",
+  "desc": "Redeno is the first and leading liquid staking token service on VeChain.",
+  "category": "defi",
+  "tags": [
+      "staking",
+      "defi",
+      "dapp",
+      "sustainability",
+      "vechain",
+      "yield"
+  ],
+  "isVeWorldSupported": true
+}

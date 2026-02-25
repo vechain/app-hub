@@ -1,0 +1,13 @@
+{
+    "name": "Soapy World",
+    "href": "https://soapy.world",
+    "desc": "Soapy World gamifies sustainable dishwashing by rewarding verified eco actions on-chain. Users upload before, during, and after proof photos from manual or machine washing to earn B3TR tokens and promote daily awareness toward real sustainability.",
+    "category": "defi",
+    "tags": [
+        "dapp",
+        "games",
+        "sustainability"
+    ],
+    "isVeWorldSupported": true,
+    "veBetterDaoId": "0x396c1319852ca87da112ff61fd9cb2437a628c0672e52331133a1f5d4500c1bf"
+}

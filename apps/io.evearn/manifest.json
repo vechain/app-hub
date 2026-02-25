@@ -1,7 +1,7 @@
 {
-  "name": "EVearn",
-  "href": "https://evearn.io/",
-  "desc": "Earn rewards for charging your Tesla and reducing your carbon footprint.",
+  "name": "Evearn",
+  "href": "https://evearn.io",
+  "desc": "Evearn turns electric and hybrid driving into rewards. Every kilometer you drive contributes to a more sustainable future. With simple login, seamless vehicle integration, and an intuitive interface, participating in clean mobility is effortless.",
   "category": "defi",
   "tags": ["dapp", "sustainability"],
   "isVeWorldSupported": true,
