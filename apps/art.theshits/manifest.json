@@ -3,5 +3,6 @@
     "href": "https://theshits.art",
     "desc": "The Shts is an exceptional collection of 1131 one-of-a-kind NFTs that brings together the creative forces of Smuzzies and DataB4Dishonor. This remarkable collaboration is further enhanced by its integration with the $SHT token, adding a unique dimension to the collection.",
     "category": "collectibles",
-    "tags": ["NFT","The Shts","VIP-181","Collectibles","$SHT", "Smuzzies", "DataB4Dishonor"]
+    "tags": ["NFT","The Shts","VIP-181","Collectibles","$SHT", "Smuzzies", "DataB4Dishonor"],
+    "isVeWorldSupported": true
 }
