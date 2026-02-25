@@ -1,11 +1,12 @@
 {
-    "name": "VeBetterDAO Airdrop",
+    "name": "VeChain Discord Connect",
     "href": "https://connect.vebetterdao.org",
-    "desc": "Claim your B3TR airdrops and engage with VeBetterDAO",
-    "category": "defi",
+    "desc": "Join VeChain Community on Discord",
+    "category": "utilities",
     "tags": [
         "dapp",
-        "airdrop"
+        "connect",
+        "discord"
     ],
     "isVeWorldSupported": true
 }
