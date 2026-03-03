@@ -1,0 +1,12 @@
+{
+    "name": "Dappies",
+    "href": "https://app.dappies.io",
+    "desc": "Complete challenges across the VeBetter universe: shop sustainably with GreenCart, ditch single-use cups with Mugshot, clean up your neighbourhood with Cleanify and more; watch your Dappy evolve as you rack up verified, on-chain proof of your real-world impact.",
+    "category": "defi",
+    "tags": [
+        "dapp",
+        "sustainability"
+    ],
+    "isVeWorldSupported": true,
+    "veBetterDaoId": "0xc6f89121c289803a45412ba7195d8fa58a339f9e3f95b1d09f040e181285aaff"
+}
