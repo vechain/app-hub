@@ -1,0 +1,9 @@
+{
+    "name": "Disperse",
+    "href": "https://disperse.me",
+    "desc": "Distribute VET or tokens to multiple addresses in a single transaction using multi-clause",
+    "category": "utilities",
+    "tags": ["tools", "multi-send", "batch transfer", "multi-clause"],
+    "repo": "https://github.com/Agilulfo1820/vechain-disperse",
+    "isVeWorldSupported": true
+}
