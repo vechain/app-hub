@@ -1,0 +1,14 @@
+{
+    "name": "VeBetter Relayers",
+    "href": "https://relayers.vebetterdao.org",
+    "desc": "The central hub for managing and monitoring VeBetterDAO auto-voting relayers.",
+    "category": "utilities",
+    "tags": [
+        "relayers",
+        "auto-voting",
+        "analytics",
+        "dao"
+    ],
+    "repo": "https://github.com/vechain/vebetterdao-relayers-dashboard",
+    "isVeWorldSupported": true
+}
