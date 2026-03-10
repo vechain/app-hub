@@ -7,7 +7,12 @@
         "relayers",
         "auto-voting",
         "analytics",
-        "dao"
+        "dao",
+        "utility",
+        "defi",
+        "vebetter",
+        "vechain",
+        "yield"
     ],
     "repo": "https://github.com/vechain/vebetterdao-relayers-dashboard",
     "isVeWorldSupported": true
