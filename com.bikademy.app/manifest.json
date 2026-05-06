@@ -1,0 +1,9 @@
+{
+    "name": "BIKADEMY",
+    "href": "https://vechain.bike/",
+    "desc": "Ride your bike, earn $B3TR. Bikademy is a cycle-to-earn app that rewards real-world cycling. Track your rides, compete in global Challenges, and get rewarded.",
+    "category": "defi",
+    "tags": ["dapp", "sustainability", "lifestyle", "cycling", "move"],
+    "isVeWorldSupported": true,
+    "veBetterDaoId": "0x2774c32e40cb4ee2d6a53abe456934b0b2d39c512f8173a7472daa19050480d4"
+}
