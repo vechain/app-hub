@@ -1,0 +1,17 @@
+{
+    "name": "MVA Fight Club",
+    "href": "https://mvanfts.com",
+    "desc": "Web3 NFT fighting game on VeChain. PvP tournaments, boss raids, daily rewards and Dojo Market for MVA NFT holders.",
+    "category": "games",
+    "tags": ["gaming", "nft", "fighting", "tournament", "rewards"],
+    "contracts": [
+        "0xffcc1c4492c3b49825712e9a8909e4fcebfe6c02",
+        "0xd861be8e33ebd09764bfca242ca6a8c54dcf844a",
+        "0x67799b0ca136b6ed2ab9b8aad6a4a1beb1f507da",
+        "0xb12d1d640f56173ef3a47e5e1a1fde96ba96ce14",
+        "0x73f32592df5c0da73d56f34669d4ae28ae1afd9e",
+        "0x9c872e8420ec38f404402bea8f8f86d5d2c17782",
+        "0xc3fd50a056dc4025875fa164ced1524c93053f29"
+    ],
+    "isVeWorldSupported": true
+}
