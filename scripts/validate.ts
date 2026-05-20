@@ -11,7 +11,7 @@ const bundleName = /^(([a-z0-9\-]+\.)+)[a-z0-9\-]+$/
 const url = /^(http(s?):\/\/)([a-zA-Z0-9.-]+)(:[0-9]{1,4})?/
 const address = /^0x[a-f0-9]{40}$/
 const byte32 = /^0x[a-f0-9]{64}$/
-const category = /collectibles|defi|games|marketplaces|utilities/
+const category = /collectibles|defi|games|marketplaces|sustainability|utilities/
 
 class ValidationError extends Error {
     constructor(message: string) {
