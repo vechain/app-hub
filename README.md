@@ -87,6 +87,7 @@ Create a `manifest.json` file includes app details.
 - defi
 - games
 - marketplaces
+- sustainability
 - utilities
 
 ### VeBetterDAO ID
