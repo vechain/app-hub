@@ -1,7 +1,7 @@
 {
   "name": "VeChain Smart Accounts",
   "href": "https://smart-accounts.vechain.org",
-  "desc": "Dashboard and tools to view stats of smart accounts on VeChain",
+  "desc": "Explore VeChain smart accounts — see how many are out there, how they're being used, and which apps and tokens are powering them.",
   "category": "utilities",
   "tags": ["wallet", "smart-accounts", "vechain", "social-login"],
   "isVeWorldSupported": true
