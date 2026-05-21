@@ -1,6 +1,6 @@
 {
   "name": "VeChain Smart Accounts",
-  "href": "https://vechain.github.io/smart-accounts",
+  "href": "https://smart-accounts.vechain.org",
   "desc": "Dashboard and tools to view stats of smart accounts on VeChain",
   "category": "utilities",
   "tags": ["wallet", "smart-accounts", "vechain", "social-login"],
