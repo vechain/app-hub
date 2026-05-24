@@ -1,0 +1,11 @@
+{
+    "name": "VeProof",
+    "href": "https://www.veproof.com",
+    "desc": "Proof of existence and integrity for documents on VeChain.",
+    "category": "utilities",
+    "tags": ["documents", "notarization", "proof-of-existence", "certification", "verification"],
+    "contracts": [
+        "0xe5d845ef0fdd42f1de7888a8a0ad4a23b4c9c939"
+    ],
+    "isVeWorldSupported": true
+}

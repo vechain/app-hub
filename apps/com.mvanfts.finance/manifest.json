@@ -1,0 +1,8 @@
+{
+    "name": "MVA Swap",
+    "href": "https://finance.mvanfts.com",
+    "desc": "MVA native DEX on VeChain. Trade VET/MVA, earn LP fees, support the ecosystem.",
+    "category": "defi",
+    "tags": ["defi", "sustainability", "exchange", "swap", "nft"],
+    "isVeWorldSupported": true
+}
