@@ -1,0 +1,19 @@
+{
+  "name": "VaultX",
+  "href": "https://vaultx-nfts.xyz",
+  "desc": "VaultX: Instant Liquidity for your NFTs",
+  "category": "defi",
+  "tags": [
+    "nft",
+    "lending",
+    "borrowing",
+    "loans",
+    "auctions",
+    "defi"
+  ],
+  "contracts": [
+    "0x56f48e0a1875fbe884169d1bf0253bcf32deb77f",
+    "0x17d130cc80266228385dc56054e51de3aa0dc5f2"
+  ],
+  "isVeWorldSupported": true
+}
