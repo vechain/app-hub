@@ -2,7 +2,7 @@
     "name": "ReUse",
     "href": "https://reuse-now.com",
     "desc": "Re-Use is a circular fashion dApp that rewards people for buying second-hand clothing. Users upload proof of their second-hand purchase and can earn rewards through the VeBetterDAO ecosystem. The purpose of Re-Use is to reduce textile waste, promote reuse, and make sustainable fashion choices measurable and rewarding.",
-    "category": "defi",
+    "category": "sustainability",
     "tags": ["dapp", "sustainability"],
     "isVeWorldSupported": true,
     "veBetterDaoId": "0xe4950f128957a44a72d5652eaf50bd19e20f541a98ac423812ca10f821836a00"
