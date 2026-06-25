@@ -1,0 +1,9 @@
+{
+  "name": "B3TR Beach",
+  "href": "https://b3trbeach.org/app",
+  "desc": "Join verified beach, river, and park cleanups and earn B3TR for real-world environmental impact.",
+  "category": "utilities",
+  "tags": ["sustainability", "cleanup", "vebetterdao"],
+  "isVeWorldSupported": true,
+  "veBetterDaoId": "0x1c5140f93ee9e727f5124e810e537b9cd23b8f9003c7dd5f8317e0e26517d4e7"
+}
