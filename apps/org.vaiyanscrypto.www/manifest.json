@@ -1,0 +1,12 @@
+{
+  "name": "Vaiyans Crypto Oracle",
+  "href": "https://www.vaiyanscrypto.org",
+  "desc": "Predict crypto prices, earn VCO points, tip in VET/VENI/B3TR, and climb the leaderboard.",
+  "category": "utilities",
+  "tags": ["social", "predictions", "rewards"],
+  "contracts": [
+    "0xbe0ee056159035a085188dd8329ff6e62b96b983",
+    "0x0bf03b87b2bdd0b3907657115832ec6da5193305"
+  ],
+  "isVeWorldSupported": true
+}
