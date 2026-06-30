@@ -1,0 +1,8 @@
+{
+  "name": "V3Tax",
+  "href": "https://v3tax.app",
+  "desc": "Smart Scan for connected wallets and tax dashboard for purchased reports.",
+  "category": "utilities",
+  "tags": ["tax", "wallet", "analytics", "smart-scan", "dashboard"],
+  "isVeWorldSupported": true
+}
