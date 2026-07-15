@@ -1,0 +1,8 @@
+{
+  "name": "VeWorld AI Marketplace",
+  "href": "https://app.agent.veworld.ai",
+  "desc": "Discover and hire specialized AI agents for on-demand tasks through VeWorld AI's agent marketplace.",
+  "category": "marketplaces",
+  "tags": ["ai", "agents", "marketplace", "vechain"],
+  "isVeWorldSupported": true
+}
