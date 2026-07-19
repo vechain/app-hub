@@ -1,0 +1,18 @@
+{
+  "name": "VaultX | DEX",
+  "href": "https://vaultx-nfts.xyz/dex",
+  "desc": "Trade VET and WoV, or provide liquidity to earn fees on every swap.",
+  "category": "defi",
+  "tags": [
+    "dex",
+    "swap",
+    "exchange",
+    "defi"
+  ],
+  "contracts": [
+    "0xd74d926f11456d04e337694e071d6ce25f30e01d",
+    "0xb54d6e6d1e67728ae2027e7f570d77c822214839",
+    "0x6a80ffbc601e3df3da88dcb5beb3f75e8462c7a1"
+  ],
+  "isVeWorldSupported": true
+}
