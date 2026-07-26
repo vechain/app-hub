@@ -1,0 +1,12 @@
+{
+  "name": "VeMugs",
+  "href": "https://vemugs.com",
+  "desc": "Brew mugs, chase height, stake for rewards. A VeChain NFT collection where taller is rarer.",
+  "category": "collectibles",
+  "tags": ["nft", "collectibles", "staking"],
+  "contracts": [
+    "0xff0ffb2167ae0b6a8af185df4cd4fe5f76ad9982",
+    "0x1037bdd0a27cba0953f6a7091a1ac315bca507e1"
+  ],
+  "isVeWorldSupported": true
+}
