@@ -1,0 +1,17 @@
+{
+  "name": "The VVall",
+  "href": "https://www.thevvall.xyz/",
+  "desc": "A 1,000,000-pixel public canvas on VeChain. Claim permanent pixels and leave your mark on internet history.",
+  "category": "collectibles",
+  "tags": [
+    "pixels",
+    "community",
+    "collectibles",
+    "nft",
+    "vechain"
+  ],
+  "contracts": [
+    "0xe451d20489b5cc75a53c8516126c86de521d1a28"
+  ],
+  "isVeWorldSupported": true
+}
