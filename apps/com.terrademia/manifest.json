@@ -1,0 +1,9 @@
+{
+  "name": "Terrademia",
+  "href": "https://terrademia.com/",
+  "desc": "Free learn-to-earn sustainability courses. Complete challenges, pass exams, and earn B3TR rewards on VeChain.",
+  "category": "sustainability",
+  "tags": ["dapp", "sustainability", "education"],
+  "isVeWorldSupported": true,
+  "veBetterDaoId": "0x821a9ae30590c7c11e0ebc03b27902e8cae0f320ad27b0f5bde9f100eebcb5a7"
+}
