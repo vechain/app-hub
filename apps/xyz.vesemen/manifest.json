@@ -1,0 +1,20 @@
+{
+    "name": "VESEMEN",
+    "href": "https://vesemen.xyz",
+    "desc": "VeSemen is an infinite-supply collection of randomly generated characters on Vechain. Mint with VET, burn a WoV Genesis card or sacrifice five pieces to mint one. Every round pays back holders and burns WoV.",
+    "category": "collectibles",
+    "tags": [
+        "NFT",
+        "VeSemen",
+        "VIP-181",
+        "Collectibles",
+        "VNFT",
+        "PFP",
+        "Generative",
+        "WoV"
+    ],
+    "contracts": [
+        "0x2500789d8a6358d4481a67d78d45b354240baadb"
+    ],
+    "isVeWorldSupported": true
+}
