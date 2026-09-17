@@ -1,0 +1,10 @@
+{
+    "name": "Per Gram",
+    "href": "https://pergramapp.com",
+    "desc": "Scan a protein product's barcode and see its carbon cost per gram of protein. Claims are backed by a photographed till receipt.",
+    "category": "sustainability",
+    "tags": ["dapp", "sustainability", "vebetterdao", "food", "nutrition", "carbon"],
+    "repo": "https://github.com/Readysett/pergram",
+    "isVeWorldSupported": true,
+    "veBetterDaoId": "0x3e05521e65fc1744a2fb21e77bae52d3cfac620e916c0c06f0109153834d59e8"
+}
