@@ -1,0 +1,10 @@
+{
+    "name": "#BEASTMODE",
+    "href": "https://beastmode.com/beastmode",
+    "desc": "Fitness application that rewards physical activity and promotes active lifestyles for better living",
+    "category": "health/lifestyle",
+    "tags": ["dapp", "health", "vebetterdao", "workout", "lifestyle", "movement"],
+    "repo": "https://github.com/Notorious-BIM/pb-web",
+    "isVeWorldSupported": true,
+    "veBetterDaoId": "0x110e85f34223f807973a8d6d3d7fd9342cc18b1992a949f9a777102e5f68ff63"
+}
