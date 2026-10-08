@@ -1,0 +1,15 @@
+{
+  "name": "BlackVeMarket",
+  "href": "https://blackvemarket.com",
+  "desc": "Non-custodial NFT marketplace on VeChain: trade NFTs, mint on the Launchpad and create in the Factory.",
+  "category": "marketplaces",
+  "tags": [
+    "nft",
+    "marketplace",
+    "launchpad",
+    "mint",
+    "collectibles",
+    "art"
+  ],
+  "isVeWorldSupported": true
+}
