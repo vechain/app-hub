@@ -1,0 +1,8 @@
+{
+  "name": "VeWorld Lite",
+  "href": "https://lite.veworld.ai",
+  "desc": "The VeWorld AI mobile app: chat with B3mo, discover and hire AI agents, and build your own on the go.",
+  "category": "marketplaces",
+  "tags": ["ai", "agents", "marketplace", "mobile"],
+  "isVeWorldSupported": true
+}
