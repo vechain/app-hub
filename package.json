@@ -1,0 +1,8 @@
+{
+    "name": "app-hub",
+    "version": "1.0.0",
+    "description": "awesome vechain apps",
+    "main": "index.json",
+    "author": "tony.li",
+    "license": "LGPL-3.0"
+}
