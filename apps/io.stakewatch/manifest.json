@@ -1,0 +1,13 @@
+{
+  "name": "StakeWatch",
+  "href": "https://stakewatch.io",
+  "desc": "Compare StarGate validators by measured APY, track your staking NFTs, and buy, sell or bid on them.",
+  "category": "utilities",
+  "tags": ["staking", "stargate", "analytics", "explorer", "nft", "marketplace"],
+  "contracts": [
+    "0x03c557be98123fdb6fad325328ac6eb77de7248c",
+    "0x1856c533ac2d94340aaa8544d35a5c1d4a21dee7",
+    "0x2996857405359379c423d4e0090fd76104e238c2"
+  ],
+  "isVeWorldSupported": true
+}
