@@ -1,0 +1,9 @@
+{
+  "name": "Rally by BlackVeMarket",
+  "href": "https://rally.blackvemarket.com",
+  "desc": "Giveaways for VeChain projects: do tasks, earn entries and win prizes drawn provably fair on VeChain.",
+  "category": "utilities",
+  "tags": ["giveaways", "community", "rewards", "nft"],
+  "contracts": ["0xe22fb3f5477563b32fdbe5deb91725e843c0d3b3"],
+  "isVeWorldSupported": true
+}
