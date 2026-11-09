@@ -1,8 +1,8 @@
 //manifest.json
 {
     "name": "Sewer Rush",
-    "href": "https://www.shit.tbc.vet/",
-    "desc": "Compete for $ prizes in this endless runner game",
+    "href": "https://shit.tbc.vet/",
+    "desc": "Compete using your VTHO for $ prizes $ in this endless runner game",
     "category": "games",
     "tags": ["game","win","gamification"],
     "repo": "https://github.com/example/projectName",
