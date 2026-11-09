@@ -1,0 +1,31 @@
+{
+  "name": "Golden Empire",
+  "href": "https://thegoldenempire.org",
+  "desc": "The Golden Empire app: NFTs, $GOLD and games on VeChain.",
+  "category": "collectibles",
+  "tags": [
+    "nft",
+    "collectibles",
+    "marketplace",
+    "games",
+    "staking",
+    "gold"
+  ],
+  "isVeWorldSupported": true,
+  "contracts": [
+    "0xff3bc357600885aaa97506ea6e24fb21aba88fbd",
+    "0x910607db19dce5651da4e68950705d6e49bc01a5",
+    "0x9d3837c3188f58ed579f98cfe922dccef25d6e95",
+    "0x0b6f1e2220e7498111db0e56d972f93dd035da32",
+    "0x60f1ab3790fb9cb07c2625c94510b3b7bf5d010a",
+    "0x7633b0e3c21cc6bacf5780cab8b622b7495666a7",
+    "0xd30fc991f09f5d3d7f81e52dfeb3a42a217b5ab7",
+    "0x796a92a4627a88fe88f585d9051007e48a04560f",
+    "0x369e405b850b3ecfd0055a123e5db65b25311764",
+    "0xac3cad43c8851960b8d42eae4645abaedc9d941f",
+    "0xdb77b51f9959b432ef2a27ff2993864ec0811a52",
+    "0xb1aa74e37e5cecbf4c716738c9446f45462b5673",
+    "0xc057c3f4f246db09257e9b9ce8da0c7e92ff61d6",
+    "0xf6dcad4db820966f9cac982ad93687f47403e9fa"
+  ]
+}
