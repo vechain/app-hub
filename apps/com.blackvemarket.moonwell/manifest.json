@@ -1,0 +1,18 @@
+{
+  "name": "The Moonwell",
+  "href": "https://moonwell.blackvemarket.com",
+  "desc": "Breed a vElf (Vumanoids) and a Vale into a one-of-a-kind Vumanoids Offspring hybrid, drawn live in the original pixel style.",
+  "category": "collectibles",
+  "tags": [
+    "nft",
+    "breeding",
+    "vumanoids",
+    "vales",
+    "pixel art",
+    "collectibles"
+  ],
+  "contracts": [
+    "0x8f9b204f505c3981a02bb930e7cd6a87af4839c2"
+  ],
+  "isVeWorldSupported": true
+}
