@@ -1,0 +1,13 @@
+{
+  "name": "FundEm Network",
+  "href": "https://pump.b3trtogether.com",
+  "desc": "Fair-launch meme token launchpad on VeChain. Launch a token in one tap, trade it with B3TR on a bonding curve, and graduate to BetterSwap with liquidity locked forever. Earn FUNDEM rewards for every launch and trade.",
+  "category": "defi",
+  "tags": ["meme", "launchpad", "dex", "trading", "b3tr"],
+  "contracts": [
+    "0x8f52d4148fbcc3b81f2eb3cbf267d18672bbe800",
+    "0xf43b942a5a11a4d3b8af6cfa1def1bdf900ab599",
+    "0x36924400636fb6879865dbddfbb6cceb62455ee3"
+  ],
+  "isVeWorldSupported": true
+}
