@@ -1,0 +1,12 @@
+{
+  "name": "VeDemonz",
+  "href": "https://vedemonz.xyz",
+  "desc": "Summon Cinder & Seraph NFTs on VeChain Mainnet and view your VeDemonz collection.",
+  "category": "collectibles",
+  "tags": ["nft", "collectibles"],
+  "contracts": [
+    "0x410baaed9f89fa636b98fdb694115273a4c4942d",
+    "0x346ebcbf993f22bf9f37089099db5de82e8ad716"
+  ],
+  "isVeWorldSupported": true
+}
