@@ -1,0 +1,14 @@
+{
+    "name": "MVA Farm",
+    "href": "https://farm.mvanfts.com",
+    "desc": "Voxel farming game on your MVA Land Plots. Grow crops, raise cows, build, explore, raid the Wither isle and fight the weekly boss for MVA prizes.",
+    "category": "games",
+    "tags": ["gaming", "nft", "farming", "voxel", "rewards"],
+    "contracts": [
+        "0x55ce12bb1af513c44f2135ca0b52f1eec27203de",
+        "0xc3fd50a056dc4025875fa164ced1524c93053f29",
+        "0x901d5891b261e8be5b9d111297e68c396aeccc26",
+        "0x593e54928c5ac2d83f0130e64b2a977e0cc6dc34"
+    ],
+    "isVeWorldSupported": true
+}
