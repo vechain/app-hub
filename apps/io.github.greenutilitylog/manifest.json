@@ -1,0 +1,10 @@
+{
+    "name": "Green Utility Log",
+    "href": "https://greenutilitylog.github.io/GreenUtilityLog/",
+    "desc": "Log your energy meter by photo or smart reader and earn B3TR for using less",
+    "category": "sustainability",
+    "tags": ["dapp", "sustainability", "energy"],
+    "repo": "https://github.com/GreenUtilityLog/GreenUtilityLog",
+    "isVeWorldSupported": true,
+    "veBetterDaoId": "0x489c6c122157f3b1072c2565b0eb6cb734564e84d14c80b1a12e6834a075f71e"
+}
